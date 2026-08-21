@@ -2,6 +2,11 @@
 
 Role-targeted resume for corporate strategy, transformation, operating-model redesign, performance improvement, and value capture.
 
+## Profile
+
+- Email: [shiv-strategy@umich.edu](mailto:shiv-strategy@umich.edu)
+- [LinkedIn](https://www.linkedin.com/in/beastofbayarea)
+
 ## Resume formats
 
 - [View the PDF](./shivam-singh-strategy-consulting.pdf)
@@ -54,7 +59,3 @@ Stories are grouped by their primary resume experience in reverse chronological 
 
 - [D2C inventory: working-capital transformation](./projects/d2c-inventory-working-capital-transformation.md) - inventory operating model and measurable cash release
 
-## Profile
-
-- Email: [shiv-strategy@umich.edu](mailto:shiv-strategy@umich.edu)
-- [LinkedIn](https://www.linkedin.com/in/beastofbayarea)
