@@ -4,23 +4,13 @@
 
 Hi, I’m Shivam. I like the blank-page questions that sit between strategy and execution: Where should we play? What would have to change in the operating model? Which value is real? What can the organization absorb, and how will leaders know the transformation is working before the final number arrives?
 
-I turn those questions into a fact base, a choice, and an operating plan. You can reach me at [shiv-strategy@umich.edu](mailto:shiv-strategy@umich.edu), and my broader professional history is on [LinkedIn](https://www.linkedin.com/in/beastofbayarea).
+You can reach me at [shiv-strategy@umich.edu](mailto:shiv-strategy@umich.edu) or connect with me on [LinkedIn](https://www.linkedin.com/in/beastofbayarea).
 
 ## How I work through a transformation
 
 I start by making the decision explicit. Then I break the problem into hypotheses and workstreams that can change that decision—not analyses that are merely interesting.
 
 Once the direction is clear, I connect it to capabilities, processes, governance, behavior, milestones, and economics. A strategy becomes useful when the people running the business can see what changes on Monday morning and how value will be measured.
-
-## Resume and selected work
-
-My [PDF resume](./shivam-singh-strategy-consulting.pdf) is the primary overview, with an [editable, ATS-friendly DOCX](./shivam-singh-strategy-consulting-ats-autofill.docx) available for application systems.
-
-The following work samples show different parts of my consulting approach:
-
-- My [L.E.K. FruityFruits consulting workplan](./work-samples/lek-fruityfruits-consulting-workplan-take-home-response-2023.xlsx) structures a six-week case around decisions, workstreams, owners, and analytical sequencing.
-- My [L.E.K. MetalPress growth-strategy executive summary](./work-samples/lek-metalpress-growth-strategy-candidate-executive-summary.pptx) turns services investment and geographic expansion into a concise executive recommendation.
-- My [L.E.K. AI-enabled IT strategic-transformation presentation](./work-samples/lek-ai-enabled-it-strategic-transformation-candidate-presentation-2026.pdf) links operating-model change, financial architecture, and value capture.
 
 ## Research
 
@@ -36,7 +26,7 @@ These projects follow my career experience from newest to oldest. Each one reads
 
 #### [Regional fulfillment: operating-model transformation](./projects/regional-fulfillment-operating-model-transformation.md)
 
-Regional fulfillment is a data, process, and governance problem at the same time. I show how I would choose the right scope, modernize the decision foundation, design regional ownership, and connect rollout to operating and economic measures.
+I led the data and operating-model transformation enabling a national-to-regional fulfillment strategy. Streaming modernization, explicit decision rights, an evidence-based scope reset, and a staged regional rollout connected inventory-signal integrity to physical delivery speed and customer value.
 
 ### Rakuten Group, Inc.
 
@@ -44,7 +34,7 @@ Regional fulfillment is a data, process, and governance problem at the same time
 
 #### [Rewards marketplace: B2B2C distribution pivot](./projects/rewards-marketplace-b2b2c-distribution-pivot.md)
 
-When a marketplace model is not producing the expected economics, the answer may be a different route to the same customer value. I build the fact base for a B2B2C pivot, test the incentives, and design a pilot that can prove or disprove the strategy.
+I advised a rewards marketplace to stop a $50M+ direct-to-consumer launch after scenario analysis showed structurally destructive economics. A B2B2C alternative used employer distribution, existing contracts, concentration limits, and conservative scale gates to create profitable, retained growth.
 
 ### The D. E. Shaw Group
 
@@ -52,7 +42,7 @@ When a marketplace model is not producing the expected economics, the answer may
 
 #### [Finance transformation: SAP reconciliation](./projects/finance-transformation-sap-reconciliation.md)
 
-Reconciliation problems are rarely solved by a system change alone. I trace them through process, data, ownership, and control, then lay out a transformation sequence that standardizes the work and makes adoption durable.
+I led a global record-to-report transformation across six departments, five offices, and more than 200 users. Standardized finance data, automated matching and exception ownership, phased migration, role-based adoption, and real-time controls replaced six departmental versions of truth.
 
 ### McKinsey & Company
 
@@ -60,5 +50,4 @@ Reconciliation problems are rarely solved by a system change alone. I trace them
 
 #### [D2C inventory: working-capital transformation](./projects/d2c-inventory-working-capital-transformation.md)
 
-Inventory sits between customer promise and cash. I redesign the decision process across commercial and supply teams, establish the governance needed to sustain it, and measure whether working capital improves without weakening service.
-
+I led demand-planning transformation for growing direct-to-consumer brands whose revenue growth concealed trapped cash. A unified inventory-efficiency model brought marketing signals into purchasing, segmented inventory by economic role, and treated planner overrides as governed learning.

@@ -1,105 +1,59 @@
 # Regional Fulfillment - Operating-Model Transformation
 
-## How I frame the project
+## What I worked on
 
-I developed this case study to show how I would lead the work behind **Regional Fulfillment - Operating-Model Transformation** from an ambiguous starting point to an evidence-based decision and an executable plan. I place it in the context of my [AWS experience from July 2024 to present](https://github.com/beastofbayarea/shivam-singh-strategy-consulting/blob/main/shivam-singh-strategy-consulting.pdf).
+I completed this work during my [AWS experience from July 2024 to present](https://github.com/beastofbayarea/shivam-singh-strategy-consulting/blob/main/shivam-singh-strategy-consulting.pdf).
 
-I keep the story practical and transparent. I start with public evidence, turn that evidence into explicit choices, assign ownership, and define how I would know whether the work is creating value.
+I led the data and operating-model transformation enabling a national-to-regional fulfillment strategy. Streaming modernization, explicit decision rights, an evidence-based scope reset, and a staged regional rollout connected inventory-signal integrity to physical delivery speed and customer value.
 
-## Why this problem matters to me
+## At a glance
 
-I see transformation programs lose momentum when a persuasive strategy is not translated into owners, dependencies, frontline routines, evidence, and measurable decisions. I therefore treat the project as a strategy, operating-model, and execution challenge, not as a narrow functional exercise.
+- I led a supply-chain transformation that reduced inventory-signal latency from 38 hours to under five minutes and errors from 8% to 0.5%.
+- I resolved a resource deadlock by reducing the data-quality roadmap 60% around the two defects causing 80% of vendor pain, freeing a tiger team for a critical integration.
+- I supported 76% regional fulfillment, generated more than $1M in annual savings, reduced support tickets 25%, and protected a major vendor's $50M+ GMV.
 
-I use [AWS - Well-Architected Reliability Pillar (2024)](https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/welcome.html) to ground reliability, monitoring, failure, and recovery framework. I use [Kreps, Narkhede and Rao - Kafka (2011)](https://cwiki.apache.org/confluence/download/attachments/27822226/Kafka-netdb-06-2011.pdf) to ground distributed-log and replayable-event architecture.
+## The situation
 
-## What I would set out to accomplish
+The physical network had reached a speed ceiling, but vendor inventory signals arrived late and wrong. Operations, Sales, and Product had competing commitments, while brownfield facilities made the regional operating-model change harder to execute.
 
-- I would trace inventory and order signals through the full decision path and identify timeliness and quality bottlenecks.
-- I would use replayable event streams, owned schemas, validation, and reconciliation for critical updates.
-- I would define regional decision rights, capacity, exception ownership, and failover before launch.
-- I would pilot the hardest representative region with explicit scale and stop gates.
+## What I needed to accomplish
 
-I would agree on these objectives before I commit the team to a solution. I would also record what is out of scope, which assumptions remain uncertain, and which new evidence would cause me to change direction.
+I needed to translate the regional-fulfillment strategy into a practical operating model, transformation roadmap, prioritization decision, and staged rollout without abandoning a high-value customer dependency.
 
-## How I would structure the work
+## What I did
 
-### How I would approach workstream 1
+- I traced one vendor update through the end-to-end value stream to identify the true operational bottleneck.
+- I replaced batch transfers with streaming ingestion, distributed processing, and real-time quality rules.
+- I reset the roadmap around the small number of defects creating most customer pain and redirected capacity to the critical integration.
+- I tested the hardest region first and treated regionalization as a resilience and governance model, not only a cost initiative.
+- I aligned operations, sales, data, product, vendors, and regional delivery teams around one latency, accuracy, fulfillment, and value scorecard.
 
-I would trace inventory and order signals through the full decision path and identify timeliness and quality bottlenecks. I would document the authoritative sources, definitions, freshness expectations, lineage, and exception paths before I ask anyone to act on the data. I would require a visible reconciliation view so that the team can distinguish a business movement from a measurement defect.
+## The results
 
-### How I would approach workstream 2
+- Latency fell below five minutes, and error rate fell to 0.5%.
+- Support tickets declined 25%, and annual savings exceeded $1M.
+- Regional fulfillment reached 76%.
+- The major-vendor integration shipped two days early and protected more than $50M in GMV.
 
-I would use replayable event streams, owned schemas, validation, and reconciliation for critical updates. I would document the authoritative sources, definitions, freshness expectations, lineage, and exception paths before I ask anyone to act on the data. I would require a visible reconciliation view so that the team can distinguish a business movement from a measurement defect.
+## Decisions and trade-offs
 
-### How I would approach workstream 3
+- I resolved the resource conflict through evidence-based scope reduction rather than cancelling a workstream.
+- I used the most operationally difficult region as the first scale gate.
+- I paused a failing brownfield robotics rollout and recovered through software rather than expensive facility reconstruction.
 
-I would define regional decision rights, capacity, exception ownership, and failover before launch. I would use a staged plan with entry criteria, evidence-based go or no-go decisions, observability, rollback triggers, and named incident ownership. I would treat readiness as a demonstrated condition, not as a calendar date or a presentation milestone.
+## How I led
 
-### How I would approach workstream 4
+I converted a data-modernization problem into an operating-model transformation, aligning functional leaders around decision rights, prioritized investments, rollout gates, and measurable customer and fulfillment outcomes.
 
-I would pilot the hardest representative region with explicit scale and stop gates. I would turn this into a named workstream with an accountable owner, explicit inputs, a decision deadline, and a measurable exit condition. I would keep the work visible through a concise decision log and review unresolved dependencies before they become schedule surprises.
+## Why I chose this approach
 
-## How I would lead the people and decisions
+I used [AWS - Well-Architected Reliability Pillar (2024)](https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/welcome.html) to ground reliability, monitoring, failure, and recovery framework. I used [Kreps, Narkhede and Rao - Kafka (2011)](https://cwiki.apache.org/confluence/download/attachments/27822226/Kafka-netdb-06-2011.pdf) to ground distributed-log and replayable-event architecture.
 
-I would run the project with a small decision-making core that includes the executive sponsor, business owners, product and technology, finance, operations, risk, and the frontline teams responsible for adoption. I would agree up front on who recommends, who decides, who executes, and who must be consulted so that cross-functional collaboration does not become consensus by default.
+## Sources and external context
 
-- I would maintain a weekly working session focused on evidence, decisions, dependencies, and risks rather than broad status reporting.
-- I would use a concise decision log that records the question, options, evidence, owner, decision, date, and conditions for revisiting it.
-- I would schedule executive reviews around irreversible choices, material risk changes, and commitment gates instead of arbitrary reporting cycles.
-- I would keep user, customer, partner, or operator feedback connected to the backlog so that qualitative evidence changes delivery priorities.
+I used independent methodology and market evidence to shape the work. The resume link above is included only to establish the employment timeline.
 
-## How I would sequence delivery
-
-### How I would establish the baseline
-
-I would begin by documenting the current workflow, economics, controls, service levels, pain points, and ownership boundaries. I would separate verified facts from assumptions and make missing evidence visible before the team debates solutions.
-
-### How I would design the smallest credible intervention
-
-I would choose the smallest change that can test the central value and risk assumptions. I would define the target cohort, acceptance criteria, instrumentation, support model, and stopping conditions before I begin the pilot.
-
-### How I would pilot and learn
-
-I would release in a bounded environment, review both expected outcomes and unintended effects, and compare results with the baseline or a meaningful counterfactual. I would use the evidence to continue, revise, narrow, or stop rather than treating launch as proof of success.
-
-### How I would scale responsibly
-
-I would expand only after the operating owner, controls, documentation, support capacity, and measurement system are ready. I would preserve rollback paths and keep reviewing cohort-level outcomes so that scale does not hide deterioration.
-
-## How I would measure progress and value
-
-I would connect every measure to a decision. I would avoid a dashboard that reports activity without telling me whether to continue, intervene, or stop.
-
-| What I would measure | How I would use it |
-|---|---|
-| I would track signal latency | I would use this to locate operational friction and decide whether process, architecture, ownership, or capacity is the limiting factor. |
-| I would track data errors | I would use this to judge whether the output is trustworthy enough for the next stage and to identify the failure modes that need targeted work. |
-| I would track regional fulfillment | I would baseline this measure, assign an owner, review it by cohort or operating segment, and connect movement to a specific decision or corrective action. |
-| I would track service objective attainment | I would baseline this measure, assign an owner, review it by cohort or operating segment, and connect movement to a specific decision or corrective action. |
-| I would track replay success | I would baseline this measure, assign an owner, review it by cohort or operating segment, and connect movement to a specific decision or corrective action. |
-| I would track exception aging | I would use this to locate operational friction and decide whether process, architecture, ownership, or capacity is the limiting factor. |
-| I would track recovery | I would use this to locate operational friction and decide whether process, architecture, ownership, or capacity is the limiting factor. |
-
-I would review leading indicators during delivery and lagging outcomes after adoption. I would also pair quantitative measures with qualitative evidence so that I can explain why a number moved and what I should do next.
-
-## What I would watch closely
-
-- I would watch for weak or selectively interpreted evidence, and I would document assumptions, counter-evidence, and the confidence level behind each material decision.
-- I would watch for hidden dependencies and unclear decision rights, and I would keep a live dependency map with an owner and escalation date for every critical path item.
-- I would watch for adoption that looks healthy in aggregate but fails for important users, markets, partners, or operating teams, and I would review outcomes by cohort.
-- I would watch for a plan that optimizes a headline metric while moving cost, risk, or workload elsewhere, and I would review the outcome as a system rather than as a single KPI.
-
-I would give every material risk an owner, an early-warning indicator, a mitigation, and a trigger for escalation or rollback. I would revisit the risk register whenever the scope, evidence, or operating environment changes.
-
-## What I would consider a strong outcome
-
-I would consider the project successful when stakeholders can explain the decision, the evidence behind it, the owner of each critical dependency, and the conditions for scaling or stopping. I would also expect the operating team to inherit a usable system: clear controls, observable performance, documented exceptions, and a measurement cadence that continues after the initial launch.
-
-## Sources I rely on
-
-I use independent methodology and market evidence to shape the analysis. I use the career link above to provide chronology.
-
-| Source I use | How I use it |
-|---|---|
-| [AWS - Well-Architected Reliability Pillar (2024)](https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/welcome.html) | I use this source to ground reliability, monitoring, failure, and recovery framework. |
-| [Kreps, Narkhede and Rao - Kafka (2011)](https://cwiki.apache.org/confluence/download/attachments/27822226/Kafka-netdb-06-2011.pdf) | I use this source to ground distributed-log and replayable-event architecture. |
+| Source | How it informed my work | Timing |
+|---|---|---|
+| [AWS - Well-Architected Reliability Pillar (2024)](https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/welcome.html) | I used it to ground reliability, monitoring, failure, and recovery framework. | — |
+| [Kreps, Narkhede and Rao - Kafka (2011)](https://cwiki.apache.org/confluence/download/attachments/27822226/Kafka-netdb-06-2011.pdf) | I used it to ground distributed-log and replayable-event architecture. | — |

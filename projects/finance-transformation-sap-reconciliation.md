@@ -1,105 +1,61 @@
-# Finance Transformation - SAP Reconciliation
+# D. E. Shaw Finance Transformation — SAP Reconciliation Automation
 
-## How I frame the project
+## What I worked on
 
-I developed this case study to show how I would lead the work behind **Finance Transformation - SAP Reconciliation** from an ambiguous starting point to an evidence-based decision and an executable plan. I place it in the context of my [D. E. Shaw experience from July 2016 to December 2019](https://github.com/beastofbayarea/shivam-singh-strategy-consulting/blob/main/shivam-singh-strategy-consulting.pdf).
+I completed this work during my [D. E. Shaw experience from July 2016 to December 2019](https://github.com/beastofbayarea/shivam-singh-strategy-consulting/blob/main/shivam-singh-strategy-consulting.pdf).
 
-I keep the story practical and transparent. I start with public evidence, turn that evidence into explicit choices, assign ownership, and define how I would know whether the work is creating value.
+I led a global record-to-report transformation across six departments, five offices, and more than 200 users. Standardized finance data, automated matching and exception ownership, phased migration, role-based adoption, and real-time controls replaced six departmental versions of truth.
 
-## Why this problem matters to me
+## At a glance
 
-I see transformation programs lose momentum when a persuasive strategy is not translated into owners, dependencies, frontline routines, evidence, and measurable decisions. I therefore treat the project as a strategy, operating-model, and execution challenge, not as a narrow functional exercise.
+- I led a multi-office SAP S/4HANA and Tableau transformation that reduced reconciliation errors from 20% to 5% in the first quarter and later near zero.
+- I reduced the reported 120-day completion cycle 15% to 102 days and cut exception-resolution time 25%.
+- I reached 95% adoption across 200+ users, released 25% of team capacity, and delivered $1.5M in annual savings with reported first-year ROI of 300%.
 
-I use [COSO - Internal Control Integrated Framework (2013)](https://www.coso.org/guidance-on-ic/pages/default.aspx) to ground financial-control, reliable-information, and monitoring framework. I use [Basel Committee - BCBS 239 (2013)](https://www.bis.org/publ/bcbs239.htm) to ground data aggregation, quality, governance, and reporting principles.
+## The situation
 
-## What I would set out to accomplish
+Manual spreadsheets, incompatible definitions, email-routed exceptions, and late discovery of discrepancies undermined reporting speed and executive trust.
 
-- I would establish canonical accounts, entities, fields, timing, materiality, and owners.
-- I would map legacy data to approved definitions and preserve source-to-report lineage.
-- I would automate deterministic matches while routing material or ambiguous exceptions to accountable reviewers.
-- I would use phased parallel runs, reconciled evidence, and control approval before cutover.
+## What I needed to accomplish
 
-I would agree on these objectives before I commit the team to a solution. I would also record what is out of scope, which assumptions remain uncertain, and which new evidence would cause me to change direction.
+I needed to create one governed global close process while protecting live reporting deadlines, regional requirements, accounting intent, and user adoption.
 
-## How I would structure the work
+## What I did
 
-### How I would approach workstream 1
+- I audited historical reports, exception logs, process documents, ownership, and resource allocation.
+- I separated the program into standardization, automation, change, and governance workstreams.
+- I mapped legacy fields to canonical definitions with Finance ownership, IT implementation, parallel reconciliation, and control approval.
+- I rolled out from non-critical departments through lower-risk offices to high-impact finance teams with role-based training and champions.
 
-I would establish canonical accounts, entities, fields, timing, materiality, and owners. I would document the authoritative sources, definitions, freshness expectations, lineage, and exception paths before I ask anyone to act on the data. I would require a visible reconciliation view so that the team can distinguish a business movement from a measurement defect.
+## The results
 
-### How I would approach workstream 2
+- Errors fell from 20% to 5% initially and approached zero in sustained operation.
+- Completion time declined 15% to 102 days.
+- Adoption reached 95% within three months.
+- Annual savings reached $1.5M, and 25% of team capacity was released.
 
-I would map legacy data to approved definitions and preserve source-to-report lineage. I would document the authoritative sources, definitions, freshness expectations, lineage, and exception paths before I ask anyone to act on the data. I would require a visible reconciliation view so that the team can distinguish a business movement from a measurement defect.
+## Decisions and trade-offs
 
-### How I would approach workstream 3
+- I standardized financial meaning before automating it.
+- I made exceptions visible, owned, aged, and evidence-backed rather than forcing false auto-matches.
+- I used phased parallel runs to protect the close before legacy retirement.
 
-I would automate deterministic matches while routing material or ambiguous exceptions to accountable reviewers. I would turn this into a named workstream with an accountable owner, explicit inputs, a decision deadline, and a measurable exit condition. I would keep the work visible through a concise decision log and review unresolved dependencies before they become schedule surprises.
+## How I led
 
-### How I would approach workstream 4
+I secured CFO and COO sponsorship and coordinated Finance, IT, Operations, Legal, Compliance, local offices, and platform vendors through a shared transformation scorecard.
 
-I would use phased parallel runs, reconciled evidence, and control approval before cutover. I would use a staged plan with entry criteria, evidence-based go or no-go decisions, observability, rollback triggers, and named incident ownership. I would treat readiness as a demonstrated condition, not as a calendar date or a presentation milestone.
+## A note on measurement
 
-## How I would lead the people and decisions
+I keep the 120-day project-duration baseline separate from recurring close-cycle measures. I report the 15% improvement without redefining that baseline.
 
-I would run the project with a small decision-making core that includes the executive sponsor, business owners, product and technology, finance, operations, risk, and the frontline teams responsible for adoption. I would agree up front on who recommends, who decides, who executes, and who must be consulted so that cross-functional collaboration does not become consensus by default.
+## Why I chose this approach
 
-- I would maintain a weekly working session focused on evidence, decisions, dependencies, and risks rather than broad status reporting.
-- I would use a concise decision log that records the question, options, evidence, owner, decision, date, and conditions for revisiting it.
-- I would schedule executive reviews around irreversible choices, material risk changes, and commitment gates instead of arbitrary reporting cycles.
-- I would keep user, customer, partner, or operator feedback connected to the backlog so that qualitative evidence changes delivery priorities.
+I used [COSO - Internal Control Integrated Framework (2013)](https://www.coso.org/guidance-on-ic/pages/default.aspx) to ground financial-control, reliable-information, and monitoring framework. I used [Basel Committee - BCBS 239 (2013)](https://www.bis.org/publ/bcbs239.htm) to ground data aggregation, quality, governance, and reporting principles.
 
-## How I would sequence delivery
+## Sources and external context
 
-### How I would establish the baseline
+I used independent methodology and market evidence to shape the work. The resume link above is included only to establish the employment timeline.
 
-I would begin by documenting the current workflow, economics, controls, service levels, pain points, and ownership boundaries. I would separate verified facts from assumptions and make missing evidence visible before the team debates solutions.
-
-### How I would design the smallest credible intervention
-
-I would choose the smallest change that can test the central value and risk assumptions. I would define the target cohort, acceptance criteria, instrumentation, support model, and stopping conditions before I begin the pilot.
-
-### How I would pilot and learn
-
-I would release in a bounded environment, review both expected outcomes and unintended effects, and compare results with the baseline or a meaningful counterfactual. I would use the evidence to continue, revise, narrow, or stop rather than treating launch as proof of success.
-
-### How I would scale responsibly
-
-I would expand only after the operating owner, controls, documentation, support capacity, and measurement system are ready. I would preserve rollback paths and keep reviewing cohort-level outcomes so that scale does not hide deterioration.
-
-## How I would measure progress and value
-
-I would connect every measure to a decision. I would avoid a dashboard that reports activity without telling me whether to continue, intervene, or stop.
-
-| What I would measure | How I would use it |
-|---|---|
-| I would track reconciliation breaks | I would use this to judge whether the output is trustworthy enough for the next stage and to identify the failure modes that need targeted work. |
-| I would track exception age | I would use this to understand control effectiveness, severity, recurrence, and whether I need to stop, narrow, or redesign the rollout. |
-| I would track manual adjustments | I would baseline this measure, assign an owner, review it by cohort or operating segment, and connect movement to a specific decision or corrective action. |
-| I would track lineage completeness | I would use this to expose evidence gaps before they turn into confident but incorrect decisions. |
-| I would track close timeliness | I would use this to locate operational friction and decide whether process, architecture, ownership, or capacity is the limiting factor. |
-| I would track control findings | I would use this to understand control effectiveness, severity, recurrence, and whether I need to stop, narrow, or redesign the rollout. |
-| I would track adoption | I would use this to learn whether the intended audience reaches meaningful value, and I would segment it so aggregate growth cannot hide weak cohorts. |
-
-I would review leading indicators during delivery and lagging outcomes after adoption. I would also pair quantitative measures with qualitative evidence so that I can explain why a number moved and what I should do next.
-
-## What I would watch closely
-
-- I would watch for weak or selectively interpreted evidence, and I would document assumptions, counter-evidence, and the confidence level behind each material decision.
-- I would watch for hidden dependencies and unclear decision rights, and I would keep a live dependency map with an owner and escalation date for every critical path item.
-- I would watch for adoption that looks healthy in aggregate but fails for important users, markets, partners, or operating teams, and I would review outcomes by cohort.
-- I would watch for a plan that optimizes a headline metric while moving cost, risk, or workload elsewhere, and I would review the outcome as a system rather than as a single KPI.
-
-I would give every material risk an owner, an early-warning indicator, a mitigation, and a trigger for escalation or rollback. I would revisit the risk register whenever the scope, evidence, or operating environment changes.
-
-## What I would consider a strong outcome
-
-I would consider the project successful when stakeholders can explain the decision, the evidence behind it, the owner of each critical dependency, and the conditions for scaling or stopping. I would also expect the operating team to inherit a usable system: clear controls, observable performance, documented exceptions, and a measurement cadence that continues after the initial launch.
-
-## Sources I rely on
-
-I use independent methodology and market evidence to shape the analysis. I use the career link above to provide chronology.
-
-| Source I use | How I use it |
-|---|---|
-| [COSO - Internal Control Integrated Framework (2013)](https://www.coso.org/guidance-on-ic/pages/default.aspx) | I use this source to ground financial-control, reliable-information, and monitoring framework. |
-| [Basel Committee - BCBS 239 (2013)](https://www.bis.org/publ/bcbs239.htm) | I use this source to ground data aggregation, quality, governance, and reporting principles. |
+| Source | How it informed my work | Timing |
+|---|---|---|
+| [COSO - Internal Control Integrated Framework (2013)](https://www.coso.org/guidance-on-ic/pages/default.aspx) | I used it to ground financial-control, reliable-information, and monitoring framework. | — |
