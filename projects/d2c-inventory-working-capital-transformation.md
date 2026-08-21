@@ -1,68 +1,61 @@
-# Removing Fear Stock from a Growing D2C Portfolio
+# Removing fear stock from a growing D2C portfolio
 
-I led a demand-planning transformation for a portfolio of direct-to-consumer brands. I had identified that customers needed the best products to stay available while the company needed to stop tying cash up in stock that arrived after demand had moved on. I worked with brand leaders, Marketing, Sales, demand planners, Supply Chain, Finance, warehouse teams, and the ERP vendor.
+Revenue was growing ~30%, but demand signals reached Operations two weeks late. Planners added 15–20% to purchase orders because stockouts hurt their targets more than excess stock. Inventory arrived after demand moved on.
 
-The portfolio trade-off between customer availability and cash sat within my mandate, down to the SKU and purchase-order decision. The transformation spanned demand sensing, campaign planning, supplier lead times, warehouse capacity, planner authority, ERP integration, and Finance's working-capital commitments; improving one function while pushing inventory or stockouts into another did not count as success.
+At McKinsey, I led the transformation across brand leaders, Marketing, Sales, Planning, Supply Chain, Finance, warehouses, and the ERP vendor. The executive trade-off was customer availability versus cash, resolved at SKU and purchase-order level—not as competing functional targets.
 
-This was a McKinsey project from my July 2014 to June 2016 tenure. Revenue was growing about 30%, but marketing signals reached Operations two weeks late and planners added 15%–20% to orders because their incentives punished stockouts more than excess inventory. The business was not short of forecasts; it was short of a trusted decision shared by cash, service, and growth owners.
+## One purchase order exposed the bullwhip
 
-## The problem was an information and incentive bullwhip
+I traced a PO from campaign plan through signal, forecast, safety stock, lead time, receipt, sale, markdown, and return.
 
-A campaign plan stayed in Marketing. Sales history reflected demand only after it happened. A planner saw the delayed rise, added a buffer, and placed a larger order through a long supplier lead time. Inventory then arrived after the peak. Each team had acted rationally against its own measure while the portfolio produced an irrational cash result.
+Three failures emerged:
 
-I traced one purchase order from campaign plan through demand signal, forecast, safety stock, supplier lead time, warehouse receipt, sale, markdown, and return. That made three causes visible:
+- 14-day information delay;
+- incentives that made a 15–20% “fear buffer” locally rational;
+- no ERP API, allowing spreadsheets and definitions to diverge.
 
-- a 14-day delay between leading demand signals and the order decision;
-- service incentives that made a 15%–20% manual “fear buffer” locally safe; and
-- an ERP without an API, which allowed spreadsheets and definitions to diverge.
+Marketing, Sales, and Planning were each acting sensibly inside their own measures. The portfolio was creating irrational working-capital outcomes.
 
-## I made working capital a product decision by SKU
+## Working capital became a product decision
 
-I built an Inventory Efficiency Index combining campaign spend, search interest, sales velocity, promotions, on-hand stock, supplier lead time, and forecast uncertainty at SKU level. It produced a recommended order and safety-stock range rather than an unexplained point answer.
+I built an Inventory Efficiency Index joining campaign spend, search interest, sales velocity, promotions, on-hand stock, supplier lead time, and forecast uncertainty. It returned an order/safety-stock range rather than an unexplained point.
 
-Inventory then received an economic job:
+SKUs received economic roles:
 
-- **A products:** high contribution, high demand, or high customer-switching risk; protected service target and daily attention.
-- **B products:** predictable core demand; tighter reorder rule and moderate buffer.
-- **C products:** slow, uncertain, or aging stock; smaller buys, lower depth, or exit.
+- **A:** high contribution, demand, or switching risk—protected service and daily attention.
+- **B:** predictable core—tighter reorder, moderate buffer.
+- **C:** slow, uncertain, or aging—smaller buys, lower depth, or exit.
 
-Research on supply-process forecasting supports the paired design: forecast error, on-hand inventory, order amplification, and service level need to be evaluated together. A model that lowers stock by creating lost sales is not an inventory improvement.
+A forecast counted as better only if inventory, order amplification, service, markdown, and lost sales improved together. Research on [demand forecasting with market information](https://doi.org/10.1016/j.ijpe.2008.08.009) and [bullwhip/service control](https://doi.org/10.1016/j.ejor.2005.01.026) supported that joint evaluation.
 
-## The override was designed, not tolerated
+## Overrides became governed evidence
 
-Planners could accept the recommendation or override it with a reason: unmodeled promotion, supplier disruption, local trend, missing data, or judgment. A material override required approval and was later compared with actual demand.
+Planners could accept or override for unmodeled promotion, supplier disruption, local trend, missing data, or judgment. Material overrides required approval and later comparison with actual demand.
 
-This did three jobs. It preserved human responsibility, prevented quiet spreadsheet buffers, and created training data about what the planning feed had missed. Sales received temporary veto protection for A products, while Finance could see the cash cost of each exception.
+This preserved responsibility, exposed the cash cost of exceptions, stopped invisible spreadsheet padding, and created evidence about missing signals. Sales received temporary veto protection for A items; Finance could see the liquidity trade.
 
-I launched first in a lower-volatility Home Goods brand. Inventory fell 15% without lost sales in the pilot, which gave the Fashion teams operating evidence rather than a central mandate. A 90-day human-in-the-loop period preceded wider policy automation.
+I piloted Home Goods because volatility was lower. Inventory fell 15% without lost sales. That operating proof earned a 90-day human-in-the-loop expansion to Fashion rather than imposing a central algorithm.
 
-## Four weeks to the holiday buy; six months to an API
+## A controlled bridge protected the holiday buy
 
-The ERP vendor's connector estimate would have missed the buying decision. I built a controlled interim bridge: scheduled Python extraction from validated CSV exports at 5:00 a.m., named analyst ownership, control totals and error handling, then a dashboard refresh before the 9:00 a.m. planning meeting.
+The ERP connector estimate missed the decision window. I introduced scheduled Python extraction from validated CSV at 5:00 a.m., named analyst ownership, control totals/error handling, and dashboard refresh before the 9:00 a.m. meeting.
 
-I documented the bridge's owner, reconciliation checks, failure response, and retirement condition. It was technical debt with an expiry, used to protect a time-sensitive decision while the durable integration case was proved.
+The bridge had a reconciliation rule, failure response, owner, and retirement date. It was explicit technical debt used to protect one buying cycle while proving the durable API case.
 
-## Scorecard and claim boundaries
+## Transformation account
 
-| Measure | Baseline | Objective | Result | Measurement |
-|---|---:|---:|---:|---|
-| Demand-signal latency | 14 days | Daily decision feed | Daily | Timestamp from source availability to planner-ready data |
-| Home Goods pilot inventory | Pilot opening level indexed to 100 | Reduce without lost sales | Index 85 | Average inventory before/after, paired with sales and A-item availability |
-| Portfolio inventory days | 90 | Release cash while protecting service | 70 | Average inventory divided by the portfolio's stated daily cost basis |
-| Working capital | Cash tied in inventory | Release liquidity | $2.5M | Inventory balance reduction attributable to the program scope |
-| A-product stockouts | Pre-program rate indexed to 100 | Reduce, not merely preserve | Index 60 | Stockout events for protected A SKUs |
-| Inventory turns | 2.5× reported | Improve | 4.0× reported | Separate management-report measure; its scope is not retained and should not be algebraically combined with portfolio inventory days |
-| Incremental EBITDA | No accepted program estimate | Quantify operating value | Estimated $1.2M | Modeled contribution from lower stockouts, markdown, and carrying cost; not booked profit claimed as solely mine |
+| Outcome | Baseline → target → recorded result | Measurement |
+|---|---|---|
+| Signal latency | 14 days → daily → daily | Source availability to planner-ready data |
+| Home Goods inventory | index 100 → reduce without lost sales → 85 | Average stock paired with sales and A-item availability |
+| Portfolio inventory days | 90 → release cash/protect service → 70 | Average inventory / stated daily cost basis; -22.2% |
+| Working capital | baseline tied in stock → release → $2.5M | Inventory-balance reduction within program scope |
+| A-item stockouts | index 100 → reduce → 60 | Protected-SKU events; -40% |
+| Inventory turns | 2.5× → improve → 4.0× | Separate management measure; denominator does not reconcile with portfolio days |
+| EBITDA | no accepted estimate → quantify → ~$1.2M modeled | Lower stockout/markdown/carrying cost; not booked profit solely caused by me |
 
-I report the 90-to-70 result as inventory days, not the full cash-conversion cycle, which would also require receivables and payables. I also keep the separately reported turn measure scoped as a management metric because the surviving record does not reconcile its denominator with portfolio inventory days.
+I call 90→70 inventory days, not cash-conversion cycle, which would also need receivables/payables.
 
-## What changed in the operating model
+I owned root-cause tracing, index and SKU roles, override governance, pilot sequencing, interim integration, operating decisions, and Finance bridge. Marketing supplied demand; planners owned orders; Sales protected service; Finance owned liquidity; Supply Chain/warehouse owned execution.
 
-The transformation made one person accountable for the purchase decision while giving every function the evidence relevant to its risk. Marketing supplied leading demand, planners owned the order, Finance saw liquidity, Sales saw protected availability, and overrides improved the next cycle. That is what removed fear stock without making customer service collateral damage.
-
-### Research used
-
-- [Reiner and Fichtinger, demand forecasting with price and market information (2009)](https://doi.org/10.1016/j.ijpe.2008.08.009) — paired evaluation of forecast, service level, inventory, and bullwhip behavior.
-- [Tashman, out-of-sample forecast evaluation (2000)](https://doi.org/10.1016/S0169-2070(00)00065-0) — rolling historical validation rather than in-sample fit.
-- [Disney and Towill, customer service and bullwhip control (2006)](https://doi.org/10.1016/j.ejor.2005.01.026) — service, stock variance, and order variance as a joint replenishment problem.
-- [Role chronology](https://github.com/beastofbayarea/shivam-singh-strategy-consulting/blob/main/shivam-singh-strategy-consulting.pdf) — establishes my McKinsey work period.
+The transformation removed fear stock by changing information, incentives, authority, and technology together. Cash was released because teams shared one SKU-level decision—not because planners were told to buy less.

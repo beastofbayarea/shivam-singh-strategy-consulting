@@ -1,69 +1,59 @@
-# Giving Five Offices One Defensible Financial Record
+# Giving five offices one defensible financial record
 
-I led a global finance transformation across six departments and five offices. I had identified that leaders could not trust a shared report when each team defined, matched, and escalated the same financial activity differently. I worked with preparers, controllers, Finance and Operations leaders, IT, Legal and Compliance, local offices, more than two hundred users, and the SAP and Tableau partners.
+Six departments and five offices were reconciling the same financial activity through different definitions, spreadsheet rules, and email queues. Baseline reconciliation error was 20%; exceptions had no common owner, age, or materiality.
 
-## The first deliverable was not software
+During my D. E. Shaw experience, I led the enterprise control transformation across preparers, controllers, Finance/Operations, IT, Legal/Compliance, local offices, 200+ users, and SAP/Tableau partners.
 
-During my D. E. Shaw experience from July 2016 to December 2019, I audited historical reports, reconciliation breaks, source formats, spreadsheet rules, email queues, ownership, control evidence, and team effort. The baseline showed a 20% reconciliation-error rate and no common way to see the age, amount, or owner of an exception.
+This was not an SAP implementation. The deliverable was one financial definition, one exception object, one evidence trail, and a signed retirement decision for every legacy route.
 
-My remit was the operating-model reset across six departments, five offices, and more than 200 users: one financial definition, one exception object, one evidence trail, and one signed retirement decision for every legacy route. That made the work an enterprise control transformation with systems, process, adoption, vendor economics, and close authority in scope—not an SAP installation.
+## Meaning preceded mapping
 
-Finance owners defined the economic meaning of each legacy field. IT mapped it into a canonical model. Control owners reconciled totals and approved the mapping in parallel runs. That decision order mattered: an integration can move a field perfectly while changing its accounting meaning.
+Finance owners defined the economic meaning of each field. IT mapped it to the canonical model. Control owners reconciled totals and approved in parallel runs.
 
-COSO supplied the broad control logic—risk, control activity, information, communication, and monitoring. BCBS 239, although written for bank risk data rather than this exact process, reinforced the need for accurate, complete, timely, adaptable data with accountable ownership.
+That sequence prevented a technically perfect integration from silently changing accounting meaning.
 
-## The operating model used exceptions as the unit of work
+COSO supplied broad control/monitoring structure. [BCBS 239](https://www.bis.org/publ/bcbs239.htm), although aimed at bank risk data, reinforced accountable, accurate, complete, timely, adaptable information.
 
-The target flow was:
+## The exception became the unit of work
 
-`source entry → canonical field and rule → SAP matching → matched ledger or named exception → evidence → controller approval → Tableau control view`
+**source → canonical field/rule → SAP match → ledger or exception → evidence → controller approval → Tableau control view**
 
-High-confidence items were matched automatically. Unmatched or ambiguous items carried amount, source, reason, materiality, owner, age, evidence, and resolution. Repeated breaks were not simply closed faster; they became candidates for source-data, policy, or matching-rule correction.
+High-confidence items matched automatically. Every exception carried amount, source, reason, materiality, owner, age, evidence, and resolution.
 
-SAP's current intercompany matching documentation illustrates the same control pattern: exact matching, auto-assignment, exception assignment, reason codes, manual adjustment, and role-specific authorization. I used those capabilities to keep judgment visible instead of forcing false agreement for the sake of automation.
+Repeated breaks were not merely closed faster; they entered the backlog for source-data, policy, or rule repair. SAP’s [intercompany matching pattern](https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/651d8af3ea974ad1a4d74449122c620e/d6e1f222780744268eb4cbcb836f6b92.html) illustrates exact matching, auto-assignment, reasons, adjustment, and role authorization.
 
-Tableau showed close progress, exception age, error source, workload, and recurring root causes. A preparer needed to resolve work, a reviewer needed to inspect evidence, and an executive needed to see control health. Each role received a different view and training path.
+Tableau served three different decisions: preparers resolved work, reviewers inspected proof, executives saw close health and recurring causes.
 
-## A small pilot earned the right to transform the close
+## A non-critical pilot earned authority over the close
 
-A non-critical department ran in parallel with the legacy process. It improved errors and speed by about 10% in the first month, which helped secure CFO and COO sponsorship and an additional $500,000 of program funding.
+The first department ran in parallel with legacy and improved error/speed ~10% in month one. That evidence secured CFO/COO sponsorship and another $500,000.
 
-I then moved through lower-risk offices before the highest-impact Finance teams. Every wave required:
+Rollout moved through lower-risk offices before high-impact Finance. Each wave required:
 
-1. source-to-target totals reconciled;
-2. exception ownership working;
-3. role training and live support complete;
-4. parallel output inside the approved threshold; and
-5. a signed decision to retire the legacy route.
+1. reconciled source-to-target totals;
+2. functioning exception ownership;
+3. role training/live support;
+4. parallel output within threshold;
+5. signed legacy retirement.
 
-This protected live reporting while local champions surfaced regional requirements. The standard could change only through documented governance; local teams could not quietly fork it back into spreadsheets.
+Local champions surfaced regional requirements. Standards changed only through governance; no office could quietly recreate spreadsheets.
 
-I also negotiated a 15% SAP license discount through the multi-year commercial agreement and case-study participation. Vendor economics and support milestones were part of the transformation case, not procurement after the architecture was fixed.
+I also negotiated a 15% SAP license discount through multi-year terms and case-study participation, making vendor economics part of transformation design.
 
-## What the program delivered
+## Result
 
-| Outcome | Baseline | Target | Result | Measurement |
-|---|---:|---:|---:|---|
-| Reconciliation error rate | 20% | At or below 0.5% in sustained operation | 5% in Q1; later reported near zero | Exceptions divided by reconciled items for the defined run; exact final rate not retained |
-| Implementation duration | 120-day program plan | 15% faster | 102 days | Calendar days from approved start to program completion; **not** recurring close time |
-| Exception resolution | Baseline elapsed time | Improve | 25% faster | Median age from exception creation to approved resolution |
-| Adoption | Department spreadsheets | At least 95% | 95% within 3 months across 200+ users | Required-role users completing governed work in SAP/Tableau |
-| Team capacity | Existing reconciliation effort | Release for higher-value work | 25% released | Time study of recurring reconciliation activity |
-| Annual operating savings | 0 | Cover transformation economics | $1.5M | Annualized avoided rework and capacity cost |
-| SAP license price | Quoted price index 100 | Improve commercial terms | Index 85 | Executed contract versus initial quote |
+| Control outcome | Baseline → target → recorded result | Measurement |
+|---|---|---|
+| Error rate | 20% → ≤0.5% sustained → 5% Q1, later near zero reported | Exceptions / reconciled items; exact final rate absent |
+| Program duration | 120 days → 15% faster → 102 days | Approved start to completion, not recurring close time |
+| Exception resolution | baseline elapsed → faster → 25% faster | Median create-to-approved resolution |
+| Adoption | departmental spreadsheets → ≥95% → 95% within 3 months / 200+ users | Required-role users completing governed SAP/Tableau work |
+| Capacity | baseline effort → release → 25% | Recurring reconciliation time study |
+| Annual operating value | 0 → cover economics → $1.5M | Annualized rework/capacity saving |
+| License price | quote index 100 → improve → 85 | Executed contract; -15% |
 
-The source record also labels first-year return as 300%, but it does not retain the full program cost or the calculation convention. I omit that ratio rather than mix a gross benefit multiple with standard net-return arithmetic. The $1.5 million annual savings is the claim supported by the retained operating model.
+A “300% first-year return” cannot be reconstructed because full cost/formula are missing, so I exclude it. Post-implementation reviews passed; that proves observed control operation, not future risk absence.
 
-Post-implementation compliance reviews passed. I treat that as evidence that the process and controls operated, not as proof that future periods were risk-free.
+I owned the definition/exception operating model, pilot, wave gates, adoption, vendor economics, measurement, and legacy retirement governance. Finance defined meaning; IT implemented; controls approved; local teams adopted; vendors supplied platforms.
 
-## The transformation in one sentence
-
-SAP and Tableau made the change scalable, but the durable asset was one financial definition, one visible exception queue, one accountable reviewer, and evidence strong enough to turn off the old process.
-
-### Control and product references
-
-1. [COSO, Internal Control—Integrated Framework](https://www.coso.org/guidance-on-ic/pages/default.aspx) — enterprise control and monitoring structure.
-2. [Basel Committee, BCBS 239 (2013)](https://www.bis.org/publ/bcbs239.htm) — accuracy, completeness, timeliness, adaptability, and data governance.
-3. [SAP S/4HANA Intercompany Matching and Reconciliation](https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/651d8af3ea974ad1a4d74449122c620e/d6e1f222780744268eb4cbcb836f6b92.html) — matching architecture and governed reconciliation cases.
-4. [SAP authorization objects for matching and reconciliation](https://help.sap.com/docs/sap_s4hana_on-premise/651d8af3ea974ad1a4d74449122c620e/288004c6aac34649bcdbc939f7578db2.html) — role separation, reason codes, assignments, and close authority.
-5. [Role chronology](https://github.com/beastofbayarea/shivam-singh-strategy-consulting/blob/main/shivam-singh-strategy-consulting.pdf) — establishes my D. E. Shaw work period.
+The durable asset was the authority to turn off the old process. SAP and Tableau scaled the workflow, but one definition, visible exception, accountable reviewer, and accepted evidence made the financial record defensible.
