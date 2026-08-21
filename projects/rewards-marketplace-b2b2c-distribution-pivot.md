@@ -1,28 +1,105 @@
-# Rewards Marketplace - B2B2C Distribution Pivot
+# Rewards Marketplace - business-to-business-to-consumer (B2B2C) Distribution Pivot
 
-> **Document type:** Externally grounded interview case reconstruction, not a claim of an independently verified completed engagement.
->
-> **Timeline alignment:** The [public Strategy and Transformation resume](https://github.com/beastofbayarea/shivam-singh-strategy-consulting/blob/main/shivam-singh-strategy-consulting.pdf) is used only to place this case within the Rakuten role dated June-December 2023.
+## How I frame the project
 
-## Evidence-grounded premise
+I developed this case study to show how I would lead the work behind **Rewards Marketplace - business-to-business-to-consumer (B2B2C) Distribution Pivot** from an ambiguous starting point to an evidence-based decision and an executable plan. I place it in the context of my [Rakuten experience from June to December 2023](https://github.com/beastofbayarea/shivam-singh-strategy-consulting/blob/main/shivam-singh-strategy-consulting.pdf).
 
-The World Bank PPP Reference Guide emphasizes institutional frameworks, risk allocation, commercial structure, and implementation. Its impact-evaluation handbook explains counterfactual measurement. Applied by analogy to B2B2C distribution, these sources support explicit partner responsibilities, risk allocation, staged pilots, and causal comparison against direct acquisition.
+I keep the story practical and transparent. I start with public evidence, turn that evidence into explicit choices, assign ownership, and define how I would know whether the work is creating value.
 
-## Case approach
+## Why this problem matters to me
 
-- Compare direct and partner distribution on reachable users, acquisition economics, retention, control, and concentration.
-- Allocate onboarding, service, data, promotion, support, and commercial risks to accountable parties.
-- Pilot through a bounded partner cohort with clear contracts, safeguards, and exit rights.
-- Scale only after incremental retained value is demonstrated beyond the first partner.
+I see transformation programs lose momentum when a persuasive strategy is not translated into owners, dependencies, frontline routines, evidence, and measurable decisions. I therefore treat the project as a strategy, operating-model, and execution challenge, not as a narrow functional exercise.
 
-## Evidence-based success measures
+I use [World Bank - PPP Reference Guide 2.0 (2014)](https://ppp.worldbank.org/library/public-private-partnerships-reference-guide-version-20) to ground partnership structuring, governance, risk-allocation, and implementation framework. I use [World Bank - Impact Evaluation in Practice](https://www.worldbank.org/en/programs/sief-trust-fund/publication/impact-evaluation-in-practice) to ground causal and counterfactual measurement methodology.
 
-Use incremental retained users, acquisition cost, partner concentration, service issues, contract exceptions, payback, and replication across partners. These are proposed measures, not historical results.
+## What I would set out to accomplish
 
-## External source map
+- I would compare direct and partner distribution on reachable users, acquisition economics, retention, control, and concentration.
+- I would allocate onboarding, service, data, promotion, support, and commercial risks to accountable parties.
+- I would pilot through a bounded partner cohort with clear contracts, safeguards, and exit rights.
+- I would scale only after incremental retained value is demonstrated beyond the first partner.
 
-| Source | Contribution |
+I would agree on these objectives before I commit the team to a solution. I would also record what is out of scope, which assumptions remain uncertain, and which new evidence would cause me to change direction.
+
+## How I would structure the work
+
+### How I would approach workstream 1
+
+I would compare direct and partner distribution on reachable users, acquisition economics, retention, control, and concentration. I would translate each material requirement into a control owner, implementation evidence, test procedure, exception path, and release consequence. I would keep that control map connected to the delivery plan so that compliance review becomes part of the work rather than a late-stage handoff.
+
+### How I would approach workstream 2
+
+I would allocate onboarding, service, data, promotion, support, and commercial risks to accountable parties. I would document the authoritative sources, definitions, freshness expectations, lineage, and exception paths before I ask anyone to act on the data. I would require a visible reconciliation view so that the team can distinguish a business movement from a measurement defect.
+
+### How I would approach workstream 3
+
+I would pilot through a bounded partner cohort with clear contracts, safeguards, and exit rights. I would map what each party contributes, what each party receives, where dependencies cross organizational boundaries, and how issues are escalated. I would test the model with a small representative cohort before I ask the broader ecosystem to adopt it.
+
+### How I would approach workstream 4
+
+I would scale only after incremental retained value is demonstrated beyond the first partner. I would map what each party contributes, what each party receives, where dependencies cross organizational boundaries, and how issues are escalated. I would test the model with a small representative cohort before I ask the broader ecosystem to adopt it.
+
+## How I would lead the people and decisions
+
+I would run the project with a small decision-making core that includes the executive sponsor, business owners, product and technology, finance, operations, risk, and the frontline teams responsible for adoption. I would agree up front on who recommends, who decides, who executes, and who must be consulted so that cross-functional collaboration does not become consensus by default.
+
+- I would maintain a weekly working session focused on evidence, decisions, dependencies, and risks rather than broad status reporting.
+- I would use a concise decision log that records the question, options, evidence, owner, decision, date, and conditions for revisiting it.
+- I would schedule executive reviews around irreversible choices, material risk changes, and commitment gates instead of arbitrary reporting cycles.
+- I would keep user, customer, partner, or operator feedback connected to the backlog so that qualitative evidence changes delivery priorities.
+
+## How I would sequence delivery
+
+### How I would establish the baseline
+
+I would begin by documenting the current workflow, economics, controls, service levels, pain points, and ownership boundaries. I would separate verified facts from assumptions and make missing evidence visible before the team debates solutions.
+
+### How I would design the smallest credible intervention
+
+I would choose the smallest change that can test the central value and risk assumptions. I would define the target cohort, acceptance criteria, instrumentation, support model, and stopping conditions before I begin the pilot.
+
+### How I would pilot and learn
+
+I would release in a bounded environment, review both expected outcomes and unintended effects, and compare results with the baseline or a meaningful counterfactual. I would use the evidence to continue, revise, narrow, or stop rather than treating launch as proof of success.
+
+### How I would scale responsibly
+
+I would expand only after the operating owner, controls, documentation, support capacity, and measurement system are ready. I would preserve rollback paths and keep reviewing cohort-level outcomes so that scale does not hide deterioration.
+
+## How I would measure progress and value
+
+I would connect every measure to a decision. I would avoid a dashboard that reports activity without telling me whether to continue, intervene, or stop.
+
+| What I would measure | How I would use it |
 |---|---|
-| [World Bank - PPP Reference Guide 2.0 (2014)](https://ppp.worldbank.org/library/public-private-partnerships-reference-guide-version-20) | Primary partnership structuring, governance, risk-allocation, and implementation framework. |
-| [World Bank - Impact Evaluation in Practice](https://www.worldbank.org/en/programs/sief-trust-fund/publication/impact-evaluation-in-practice) | Primary causal and counterfactual measurement methodology. |
-| [Public resume](https://github.com/beastofbayarea/shivam-singh-strategy-consulting/blob/main/shivam-singh-strategy-consulting.pdf) | Work dates only. |
+| I would track incremental retained users | I would use this to learn whether the intended audience reaches meaningful value, and I would segment it so aggregate growth cannot hide weak cohorts. |
+| I would track acquisition cost | I would use this to test whether the operating model creates durable value after implementation, risk, and support costs are included. |
+| I would track partner concentration | I would baseline this measure, assign an owner, review it by cohort or operating segment, and connect movement to a specific decision or corrective action. |
+| I would track service issues | I would baseline this measure, assign an owner, review it by cohort or operating segment, and connect movement to a specific decision or corrective action. |
+| I would track contract exceptions | I would use this to understand control effectiveness, severity, recurrence, and whether I need to stop, narrow, or redesign the rollout. |
+| I would track payback | I would use this to test whether the operating model creates durable value after implementation, risk, and support costs are included. |
+| I would track replication across partners | I would baseline this measure, assign an owner, review it by cohort or operating segment, and connect movement to a specific decision or corrective action. |
+
+I would review leading indicators during delivery and lagging outcomes after adoption. I would also pair quantitative measures with qualitative evidence so that I can explain why a number moved and what I should do next.
+
+## What I would watch closely
+
+- I would watch for weak or selectively interpreted evidence, and I would document assumptions, counter-evidence, and the confidence level behind each material decision.
+- I would watch for hidden dependencies and unclear decision rights, and I would keep a live dependency map with an owner and escalation date for every critical path item.
+- I would watch for adoption that looks healthy in aggregate but fails for important users, markets, partners, or operating teams, and I would review outcomes by cohort.
+- I would watch for a control that exists on paper but is not observable in operation, and I would require test evidence, exception handling, and accountable approval before release.
+
+I would give every material risk an owner, an early-warning indicator, a mitigation, and a trigger for escalation or rollback. I would revisit the risk register whenever the scope, evidence, or operating environment changes.
+
+## What I would consider a strong outcome
+
+I would consider the project successful when stakeholders can explain the decision, the evidence behind it, the owner of each critical dependency, and the conditions for scaling or stopping. I would also expect the operating team to inherit a usable system: clear controls, observable performance, documented exceptions, and a measurement cadence that continues after the initial launch.
+
+## Sources I rely on
+
+I use independent methodology and market evidence to shape the analysis. I use the career link above to provide chronology.
+
+| Source I use | How I use it |
+|---|---|
+| [World Bank - PPP Reference Guide 2.0 (2014)](https://ppp.worldbank.org/library/public-private-partnerships-reference-guide-version-20) | I use this source to ground partnership structuring, governance, risk-allocation, and implementation framework. |
+| [World Bank - Impact Evaluation in Practice](https://www.worldbank.org/en/programs/sief-trust-fund/publication/impact-evaluation-in-practice) | I use this source to ground causal and counterfactual measurement methodology. |
