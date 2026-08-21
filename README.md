@@ -30,6 +30,22 @@ I led the vendor-data and roadmap reset around a common streaming core with mark
 
 The replacement used employer distribution and existing contracts, with scale gates and a 15% partner-concentration ceiling. CAC fell from about $42 to $8.50, day-30 retention rose from 34% to 67%, monthly transactions per active user rose from 1.8 to 3.2, LTV:CAC moved from 0.8× to 4.5×, and payback fell from eighteen months to four. Fifteen partners were signed in six months, and the contract cycle reached eleven weeks against a roughly nine-month benchmark. The strategy worked because it changed who brought the customer and why the customer returned—not the campaign creative.
 
+## Change-leadership answer — one defensible financial record
+
+**Q: How would you lead a large-scale change?**
+
+**A:** I use Kotter's logic, but I translate it into operating evidence, decision rights, and adoption. In the SAP finance transformation, the organization had six departments, five offices, more than 200 users, six versions of financial truth, and a 20% reconciliation-error rate. The challenge was not installing software; it was transferring authority from departmental spreadsheets to one governed record without disrupting the close.
+
+I created **urgency** with the error, rework, and close-risk baseline, then aligned a sponsor coalition across Finance, controllers, department owners, IT, data, procurement, and local champions. The outcome was explicit: every material number would move from source through a canonical rule, SAP match, ledger or owned exception, supporting evidence, controller approval, and a common control view.
+
+To create the **vision and path**, we settled meaning before mapping fields. The exception became the unit of work, with severity, evidence, owner, SLA, escalation, and approval. That removed a major barrier: teams no longer had to abandon local knowledge to adopt the common system; their judgment was encoded in rules or visible exception handling.
+
+I used a non-critical pilot to produce an early win and earn authority over the close. The rollout was phased by office, department, control risk, and user role. Training used real tasks; access and adoption were instrumented; local champions surfaced friction; and controller sign-off, not system availability, determined completion. We captured the common record and exception model as durable decisions and maintained the readiness checklist through cutover and stabilization.
+
+The program finished in 102 days against a 120-day baseline. Errors moved from 20% to 5% in the first quarter and later near zero as reported. Exception resolution became 25% faster, 95% of required users adopted the governed workflow within three months, recurring reconciliation capacity improved 25%, and annual operating value reached $1.5 million. Procurement also reduced the executed license price 15%.
+
+To **reinforce** the change, the Tableau control view, exception ownership, controller cadence, and onboarding process remained part of normal operations. The other transformations in this portfolio use different levers—daily demand signals for D2C inventory, common-core/local-edge architecture for regional fulfillment, and employer distribution for the rewards marketplace—but the change principle is consistent: urgency creates permission, an early proof earns trust, and governance plus measurement make the new behavior survive the program.
+
 ## The consulting standard behind the work
 
 I use hypotheses to expose the decision, then connect the chosen direction to process, data, governance, capability, incentives, adoption, and an economic ledger. Stakeholder alignment is not agreement in a workshop; it is clear authority and observable behavior after the workshop ends.
