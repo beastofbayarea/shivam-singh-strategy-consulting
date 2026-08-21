@@ -1,60 +1,28 @@
-# D2C Inventory — Demand Signals & Working-Capital Release
+# D2C Inventory - Demand Signals and Working-Capital Transformation
 
-> **Portfolio lens:** Operations transformation, working capital, value-stream redesign, incentive alignment, and adoption.
+> **Document type:** Externally grounded interview case reconstruction, not a claim of an independently verified completed engagement.
+>
+> **Timeline alignment:** The [public Strategy and Transformation resume](https://github.com/beastofbayarea/shivam-singh-strategy-consulting/blob/main/shivam-singh-strategy-consulting.pdf) is used only to place this case within the McKinsey role dated July 2014-June 2016.
 
-## Executive snapshot
+## Evidence-grounded premise
 
-Led demand-planning transformation for growing direct-to-consumer brands whose revenue growth concealed trapped cash. A unified inventory-efficiency model brought marketing signals into purchasing, segmented inventory by economic role, and treated planner overrides as governed learning.
+Tashman's forecasting research recommends rolling-origin, multiple-period out-of-sample evaluation rather than relying on in-sample fit. The World Bank's impact-evaluation handbook emphasizes counterfactuals and credible causal designs. Together they support inventory transformation based on validated demand signals and measured policy effects rather than blanket cuts.
 
-## Resume-ready impact
+## Case approach
 
-- Reduced inventory days from 90 to 70, released $2.5M in working capital, and improved inventory turns from 2.5x to 4.0x.
-- Connected advertising, search, sales, stock, lead-time, and promotion signals in a daily SKU-level planning feed, replacing a 14-day lag.
-- Reduced top-tier SKU stockouts 40% and generated an estimated $1.2M in incremental EBITDA while preserving human exception control.
+- Segment inventory by economic role, service requirement, lead time, and obsolescence risk.
+- Combine sales, campaign, search, stock, promotion, and supplier signals with explicit ownership.
+- Hindcast forecasts across multiple periods and record planner overrides with reasons.
+- Pilot replenishment-policy changes with comparison groups before wider rollout.
 
-## Interview story
+## Evidence-based success measures
 
-### Situation
+Use out-of-sample error, service level, stockouts, inventory days, write-offs, override value, working capital, and causal validity. These are proposed measures, not historical results.
 
-Marketing signals reached Operations two weeks late, planners added 15–20% fear buffers, and teams optimized revenue, fill rate, or cash independently. The ERP lacked an API before a critical holiday buy.
+## External source map
 
-### Task
-
-Synchronize demand, working capital, service levels, and incentives in one practical decision loop without creating blanket inventory cuts.
-
-### Actions
-
-- Mapped the purchase-order value stream from campaign plan through warehouse receipt.
-- Classified inventory by economic role and protected high-value A-class service targets.
-- Piloted in a lower-volatility brand, retained reason-coded overrides, and used early proof to expand.
-- Built a deliberate CSV bridge around the ERP constraint to meet the decision date while justifying durable integration.
-
-### Results
-
-- Inventory days fell from 90 to 70.
-- The program released $2.5M in working capital and improved turns to 4.0x.
-- A-class stockouts declined 40%.
-- Incremental EBITDA reached an estimated $1.2M.
-
-## Decisions and trade-offs
-
-- Reduce excess by SKU role rather than impose a uniform cut.
-- Pair liquidity and service metrics so one function cannot improve at another's expense.
-- Use a temporary integration bridge with explicit replacement intent when timing is critical.
-
-## Leadership signal
-
-Aligned CFO, Sales, Marketing, planners, brand leaders, warehouse teams, and technology owners around one liquidity-and-availability scorecard.
-
-## Skills and keywords
-
-operations transformation · working capital · inventory optimization · demand planning · value stream mapping · change management · forecasting · human in the loop · EBITDA · operating model
-
-## Factual boundary
-
-The source cautions against using cash-conversion cycle and inventory days interchangeably. This file reports the 90-to-70 change specifically as inventory days.
-
-## Source
-
-[Original Notion project page](https://app.notion.com/p/15bf9e255f2180b3ada8cd06840f6c1a)
-
+| Source | Contribution |
+|---|---|
+| [Tashman - Out-of-sample tests of forecasting accuracy (2000)](https://www.sciencedirect.com/science/article/pii/S0169207000000650) | Primary forecast-validation methodology. |
+| [World Bank - Impact Evaluation in Practice](https://www.worldbank.org/en/programs/sief-trust-fund/publication/impact-evaluation-in-practice) | Primary causal and counterfactual evaluation framework. |
+| [Public resume](https://github.com/beastofbayarea/shivam-singh-strategy-consulting/blob/main/shivam-singh-strategy-consulting.pdf) | Work dates only. |

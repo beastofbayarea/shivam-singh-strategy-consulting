@@ -2,6 +2,11 @@
 
 Role-targeted resume for corporate strategy, transformation, operating-model redesign, performance improvement, and value capture.
 
+## Profile
+
+- Email: [shiv-strategy@umich.edu](mailto:shiv-strategy@umich.edu)
+- [LinkedIn](https://www.linkedin.com/in/beastofbayarea)
+
 ## Resume formats
 
 - [View the PDF](./shivam-singh-strategy-consulting.pdf)
@@ -28,7 +33,13 @@ Use the PDF for review and sharing. Use the DOCX for editable, ATS-friendly appl
 
 ## Project interview stories
 
-Stories are grouped by their primary resume experience in reverse chronological order. Each project includes resume-ready impact, interview framing, decisions, metrics, and a link to the source page.
+Stories are grouped by their primary resume experience in reverse chronological order. Each file is an externally grounded interview case reconstruction: independent methodology, regulatory, and market sources support the content, while the resume is used only for work dates. The files do not claim independently verified engagement results.
+
+### Amazon Web Services (AWS)
+
+**Principal, Strategy and Transformation** | July 2024 - Present
+
+- [Regional fulfillment: operating-model transformation](./projects/regional-fulfillment-operating-model-transformation.md) - data modernization, scope prioritization, regional rollout, governance, and measurable value capture
 
 ### Rakuten Group, Inc.
 
@@ -46,11 +57,5 @@ Stories are grouped by their primary resume experience in reverse chronological 
 
 **Engagement Associate, Strategy and Transformation** | July 2014 - June 2016
 
-- [APAC expansion: analytics and localized GTM](./projects/apac-expansion-analytics-localized-gtm.md) - operating model, localization, and market-entry execution
-- [Retail pricing: explainable elasticity](./projects/retail-pricing-explainable-elasticity.md) - pricing transformation, guardrails, and value capture
 - [D2C inventory: working-capital transformation](./projects/d2c-inventory-working-capital-transformation.md) - inventory operating model and measurable cash release
 
-## Profile
-
-- Email: [shiv-strategy@umich.edu](mailto:shiv-strategy@umich.edu)
-- [LinkedIn](https://www.linkedin.com/in/beastofbayarea)
