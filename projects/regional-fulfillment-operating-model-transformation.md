@@ -8,7 +8,7 @@ Amazon publicly designed and activated its eight U.S. fulfillment regions during
 
 My later project addressed an operating dependency inside that model: vendor catalog and inventory changes took as long as 38 hours to become usable and 8% contained errors. Regional placement depends on current local availability; stale data can block a customer promise as completely as a physical capacity failure.
 
-I owned the decision across platform scale and one commercially urgent edge: redesign the shared vendor-data path while protecting a seller contributing more than $50 million in GMV. The mandate joined event architecture, data-quality policy, roadmap allocation, seller integration, support economics, and regional operating rights, so neither the common platform nor the strategic account could be treated as somebody else's constraint.
+The decisive trade-off sat with me: redesign the shared vendor-data path at platform scale while protecting a seller contributing more than $50 million in GMV. The mandate joined event architecture, data-quality policy, roadmap allocation, seller integration, support economics, and regional operating rights, so neither the common platform nor the strategic account could be treated as somebody else's constraint.
 
 ## I traced one update until the architecture became undeniable
 

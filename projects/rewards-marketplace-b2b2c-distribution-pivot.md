@@ -6,7 +6,7 @@ I led the strategy work for a rewards marketplace considering a direct consumer 
 
 During my Rakuten experience from June to December 2023, the marketplace had more than $50 million of launch momentum and planned to place 70% of spend into social acquisition. The base model showed lifetime value at only 0.8 times customer-acquisition cost.
 
-I owned the stop-and-redeploy decision at executive level: challenge a funded consumer plan, make the downside legible across 10,000 scenarios, replace paid acquisition with enterprise distribution, and define the economics and concentration gates that would determine whether the new route earned more capital. The value was not a better campaign; it was preventing scale from multiplying a structurally negative customer relationship.
+I put the stop-and-redeploy decision in front of executives: challenge a funded consumer plan, make the downside legible across 10,000 scenarios, replace paid acquisition with enterprise distribution, and define the economics and concentration gates that would determine whether the new route earned more capital. The value was not a better campaign; it was preventing scale from multiplying a structurally negative customer relationship.
 
 I ran 10,000 scenarios across media auction cost, conversion, churn, transaction frequency, gross margin, and lifetime value. I used a long-tailed distribution for media spikes, bounded churn probabilities, and a weighted range for customer value rather than one management forecast. In 68% of runs, the direct model lost more than $20 million in year one.
 
