@@ -1,58 +1,64 @@
 # Shivam Singh - Strategy and Transformation Consulting
 
-I help organizations turn ambiguous strategic questions into a fact base, a practical choice, and an operating plan that produces measurable value. This portfolio shows how I approach corporate strategy, transformation, operating-model design, market entry, performance improvement, and change.
-
 ## Profile
 
-- I welcome conversations at [shiv-strategy@umich.edu](mailto:shiv-strategy@umich.edu).
-- I share my broader professional background on [LinkedIn](https://www.linkedin.com/in/beastofbayarea).
+Hi, I’m Shivam. I like the blank-page questions that sit between strategy and execution: Where should we play? What would have to change in the operating model? Which value is real? What can the organization absorb, and how will leaders know the transformation is working before the final number arrives?
 
-## What I focus on
+I turn those questions into a fact base, a choice, and an operating plan. You can reach me at [shiv-strategy@umich.edu](mailto:shiv-strategy@umich.edu), and my broader professional history is on [LinkedIn](https://www.linkedin.com/in/beastofbayarea).
 
-- I structure complex strategic questions into testable hypotheses and decision-relevant workstreams.
-- I connect operating-model choices to capabilities, governance, behavior, and measurable economics.
-- I build market-entry, pricing, and transformation recommendations from independent evidence.
-- I translate executive decisions into accountable delivery, change adoption, and value capture.
+## How I work through a transformation
 
-## Resume
+I start by making the decision explicit. Then I break the problem into hypotheses and workstreams that can change that decision—not analyses that are merely interesting.
 
-- I use the [PDF resume](./shivam-singh-strategy-consulting.pdf) as the primary version for reading and sharing.
-- I provide an [editable, ATS-friendly DOCX](./shivam-singh-strategy-consulting-ats-autofill.docx) for application workflows.
+Once the direction is clear, I connect it to capabilities, processes, governance, behavior, milestones, and economics. A strategy becomes useful when the people running the business can see what changes on Monday morning and how value will be measured.
 
-## Selected work
+## Resume and selected work
 
-- I structure a six-week case around clear workstreams, owners, analyses, and decision points in my [L.E.K. FruityFruits consulting workplan](./work-samples/lek-fruityfruits-consulting-workplan-take-home-response-2023.xlsx).
-- I develop services-investment and geographic-expansion recommendations in my [L.E.K. MetalPress growth-strategy executive summary](./work-samples/lek-metalpress-growth-strategy-candidate-executive-summary.pptx).
-- I connect operating-model change, financial architecture, and value capture in my [L.E.K. AI-enabled IT strategic-transformation presentation](./work-samples/lek-ai-enabled-it-strategic-transformation-candidate-presentation-2026.pdf).
+My [PDF resume](./shivam-singh-strategy-consulting.pdf) is the primary overview, with an [editable, ATS-friendly DOCX](./shivam-singh-strategy-consulting-ats-autofill.docx) available for application systems.
 
-## Publication
+The following work samples show different parts of my consulting approach:
 
-- I co-developed a peer-reviewed framework for AI-enabled business resilience in the [AI and business climate-resilience study](./publications/journal-of-cleaner-production-ai-business-climate-resilience-study-2023.pdf).
+- My [L.E.K. FruityFruits consulting workplan](./work-samples/lek-fruityfruits-consulting-workplan-take-home-response-2023.xlsx) structures a six-week case around decisions, workstreams, owners, and analytical sequencing.
+- My [L.E.K. MetalPress growth-strategy executive summary](./work-samples/lek-metalpress-growth-strategy-candidate-executive-summary.pptx) turns services investment and geographic expansion into a concise executive recommendation.
+- My [L.E.K. AI-enabled IT strategic-transformation presentation](./work-samples/lek-ai-enabled-it-strategic-transformation-candidate-presentation-2026.pdf) links operating-model change, financial architecture, and value capture.
 
-## Project portfolio
+## Research
 
-I organize these projects by career experience, with the most recent first. In each case study, I explain how I would structure the question, build the fact base, evaluate choices, design the operating model, and govern measurable value capture. I ground the analysis in the independent methodology and market sources linked inside each file.
+I co-developed a peer-reviewed framework for AI-enabled business resilience in the [AI and business climate-resilience study](./publications/journal-of-cleaner-production-ai-business-climate-resilience-study-2023.pdf). It reflects my interest in using research to clarify how technology changes organizational capability rather than treating technology adoption as the outcome itself.
+
+## From question to operating plan
+
+These projects follow my career experience from newest to oldest. Each one reads as a detailed conversation about the question, the evidence, the choice, the operating model, and the path to value. External market and methodology sources inside every file form the analytical foundation.
 
 ### Amazon Web Services (AWS)
 
 **Principal, Strategy and Transformation** | July 2024 - Present
 
-- I use [Regional fulfillment: operating-model transformation](./projects/regional-fulfillment-operating-model-transformation.md) to show how I would connect data modernization, scope choices, regional rollout, governance, and operating metrics to measurable fulfillment value.
+#### [Regional fulfillment: operating-model transformation](./projects/regional-fulfillment-operating-model-transformation.md)
+
+Regional fulfillment is a data, process, and governance problem at the same time. I show how I would choose the right scope, modernize the decision foundation, design regional ownership, and connect rollout to operating and economic measures.
 
 ### Rakuten Group, Inc.
 
 **Corporate Strategy and Transformation - MBA Intern** | June 2023 - December 2023
 
-- I use [Rewards marketplace: B2B2C distribution pivot](./projects/rewards-marketplace-b2b2c-distribution-pivot.md) to show how I would build the fact base, test marketplace economics, recommend a distribution pivot, and design a learning-oriented pilot.
+#### [Rewards marketplace: B2B2C distribution pivot](./projects/rewards-marketplace-b2b2c-distribution-pivot.md)
+
+When a marketplace model is not producing the expected economics, the answer may be a different route to the same customer value. I build the fact base for a B2B2C pivot, test the incentives, and design a pilot that can prove or disprove the strategy.
 
 ### The D. E. Shaw Group
 
 **Vice President, Transformation** | July 2016 - December 2019
 
-- I use [Finance transformation: SAP reconciliation](./projects/finance-transformation-sap-reconciliation.md) to show how I would standardize reconciliation, redesign ownership and controls, sequence adoption, and create a durable transformation cadence.
+#### [Finance transformation: SAP reconciliation](./projects/finance-transformation-sap-reconciliation.md)
+
+Reconciliation problems are rarely solved by a system change alone. I trace them through process, data, ownership, and control, then lay out a transformation sequence that standardizes the work and makes adoption durable.
 
 ### McKinsey & Company
 
 **Engagement Associate, Strategy and Transformation** | July 2014 - June 2016
 
-- I use [D2C inventory: working-capital transformation](./projects/d2c-inventory-working-capital-transformation.md) to show how I would redesign inventory decisions, align commercial and supply teams, manage implementation, and release cash without weakening service.
+#### [D2C inventory: working-capital transformation](./projects/d2c-inventory-working-capital-transformation.md)
+
+Inventory sits between customer promise and cash. I redesign the decision process across commercial and supply teams, establish the governance needed to sustain it, and measure whether working capital improves without weakening service.
+
