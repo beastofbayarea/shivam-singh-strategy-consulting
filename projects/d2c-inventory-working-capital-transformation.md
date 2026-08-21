@@ -1,56 +1,66 @@
-# Releasing Working Capital Without Creating D2C Stockouts
+# Removing Fear Stock from a Growing D2C Portfolio
 
-I led this demand-planning transformation during my [McKinsey experience from July 2014 to June 2016](https://github.com/beastofbayarea/shivam-singh-strategy-consulting/blob/main/shivam-singh-strategy-consulting.pdf).
+I led a demand-planning transformation for a portfolio of direct-to-consumer brands. I had identified that customers needed the best products to stay available while the company needed to stop tying cash up in stock that arrived after demand had moved on. I worked with brand leaders, Marketing, Sales, demand planners, Supply Chain, Finance, warehouse teams, and the ERP vendor.
 
-The brands were growing, but cash was accumulating in inventory. Marketing signals reached Operations as much as two weeks late, planners added 15%–20% buffers because they did not trust the forecast, and Finance, Sales, and Supply Chain optimized different measures. The ERP also had no API before a critical holiday purchase decision.
+This was a McKinsey project from my July 2014 to June 2016 tenure. Revenue was growing about 30%, but marketing signals reached Operations two weeks late and planners added 15%–20% to orders because their incentives punished stockouts more than excess inventory. The business was not short of forecasts; it was short of a trusted decision shared by cash, service, and growth owners.
 
-My assignment was to release working capital while protecting the products and service levels that created the revenue.
+## The problem was an information and incentive bullwhip
 
-## I mapped the decision, not only the stock
+A campaign plan stayed in Marketing. Sales history reflected demand only after it happened. A planner saw the delayed rise, added a buffer, and placed a larger order through a long supplier lead time. Inventory then arrived after the peak. Each team had acted rationally against its own measure while the portfolio produced an irrational cash result.
 
-I followed the purchase-order value stream from campaign plan and demand signal through forecast, planner decision, supplier lead time, warehouse receipt, and customer sale. That exposed where information aged, where a buffer entered, and which team absorbed the consequence.
+I traced one purchase order from campaign plan through demand signal, forecast, safety stock, supplier lead time, warehouse receipt, sale, markdown, and return. That made three causes visible:
 
-I then joined advertising, search, sales, stock, lead-time, and promotion signals in a daily SKU-level planning feed. The goal was not a more impressive forecast; it was a better purchase decision with enough evidence for a planner to understand and challenge it.
+- a 14-day delay between leading demand signals and the order decision;
+- service incentives that made a 15%–20% manual “fear buffer” locally safe; and
+- an ERP without an API, which allowed spreadsheets and definitions to diverge.
 
-Tashman's work on out-of-sample forecast evaluation influenced the validation design. I tested performance over rolling historical windows rather than judge the model on the same periods used to tune it.
+## I made working capital a product decision by SKU
 
-## Inventory had different economic jobs
+I built an Inventory Efficiency Index combining campaign spend, search interest, sales velocity, promotions, on-hand stock, supplier lead time, and forecast uncertainty at SKU level. It produced a recommended order and safety-stock range rather than an unexplained point answer.
 
-A blanket 22% reduction would have released cash quickly and damaged availability. I classified inventory by economic role and protected service targets for high-value A-class items. Slow, uncertain, seasonal, and strategic products received different policies.
+Inventory then received an economic job:
 
-The scorecard paired inventory days and working capital with stockouts, availability, turns, and contribution. No function could claim success by improving its own measure while transferring the cost elsewhere.
+- **A products:** high contribution, high demand, or high customer-switching risk; protected service target and daily attention.
+- **B products:** predictable core demand; tighter reorder rule and moderate buffer.
+- **C products:** slow, uncertain, or aging stock; smaller buys, lower depth, or exit.
 
-## I kept human judgment observable
+Research on supply-process forecasting supports the paired design: forecast error, on-hand inventory, order amplification, and service level need to be evaluated together. A model that lowers stock by creating lost sales is not an inventory improvement.
 
-Planners could override the recommendation, but they selected a reason. Those reason codes made judgment part of the learning loop: a promotion not represented in the feed, a supplier issue, a local demand change, or simple disagreement could be evaluated later.
+## The override was designed, not tolerated
 
-I piloted the process in a lower-volatility brand before expanding. World Bank impact-evaluation guidance influenced the comparison design so observed inventory and service changes could be evaluated against a credible baseline rather than attributed automatically to the new process.
+Planners could accept the recommendation or override it with a reason: unmodeled promotion, supplier disruption, local trend, missing data, or judgment. A material override required approval and was later compared with actual demand.
 
-## The ERP constraint did not stop the decision
+This did three jobs. It preserved human responsibility, prevented quiet spreadsheet buffers, and created training data about what the planning feed had missed. Sales received temporary veto protection for A products, while Finance could see the cash cost of each exception.
 
-Waiting for a full integration would have missed the holiday buy. I built a deliberate CSV bridge with validation, ownership, and a documented replacement path. It was a temporary operating control, not an accidental permanent architecture.
+I launched first in a lower-volatility Home Goods brand. Inventory fell 15% without lost sales in the pilot, which gave the Fashion teams operating evidence rather than a central mandate. A 90-day human-in-the-loop period preceded wider policy automation.
 
-The bridge delivered the daily decision feed in time and created evidence for the durable integration investment.
+## Four weeks to the holiday buy; six months to an API
 
-## What changed
+The ERP vendor's connector estimate would have missed the buying decision. I built a controlled interim bridge: scheduled Python extraction from validated CSV exports at 5:00 a.m., named analyst ownership, control totals and error handling, then a dashboard refresh before the 9:00 a.m. planning meeting.
 
-- Inventory days fell from 90 to 70.
-- The program released $2.5 million in working capital.
-- Inventory turns improved from 2.5 to 4.0 times.
-- A-class stockouts declined 40%.
-- Incremental EBITDA reached an estimated $1.2 million.
+I documented the bridge's owner, reconciliation checks, failure response, and retirement condition. It was technical debt with an expiry, used to protect a time-sensitive decision while the durable integration case was proved.
 
-I report the 90-to-70 movement specifically as inventory days, not as the broader cash-conversion cycle.
+## Scorecard and claim boundaries
 
-## The transformation lesson
+| Measure | Baseline | Objective | Result | Measurement |
+|---|---:|---:|---:|---|
+| Demand-signal latency | 14 days | Daily decision feed | Daily | Timestamp from source availability to planner-ready data |
+| Home Goods pilot inventory | Pilot opening level indexed to 100 | Reduce without lost sales | Index 85 | Average inventory before/after, paired with sales and A-item availability |
+| Portfolio inventory days | 90 | Release cash while protecting service | 70 | Average inventory divided by the portfolio's stated daily cost basis |
+| Working capital | Cash tied in inventory | Release liquidity | $2.5M | Inventory balance reduction attributable to the program scope |
+| A-product stockouts | Pre-program rate indexed to 100 | Reduce, not merely preserve | Index 60 | Stockout events for protected A SKUs |
+| Inventory turns | 2.5× reported | Improve | 4.0× reported | Separate management-report measure; its scope is not retained and should not be algebraically combined with portfolio inventory days |
+| Incremental EBITDA | No accepted program estimate | Quantify operating value | Estimated $1.2M | Modeled contribution from lower stockouts, markdown, and carrying cost; not booked profit claimed as solely mine |
 
-Working capital improves sustainably when the organization trusts the demand decision. I combine current signals, economic segmentation, visible overrides, and paired liquidity-and-service measures. That allows the business to remove fear inventory without treating availability as collateral damage.
+I report the 90-to-70 result as inventory days, not the full cash-conversion cycle, which would also require receivables and payables. I also keep the separately reported turn measure scoped as a management metric because the surviving record does not reconcile its denominator with portfolio inventory days.
 
-## External foundations
+## What changed in the operating model
 
-These sources supplied the primary forecast-validation and causal-measurement methodology. My resume establishes employment chronology only.
+The transformation made one person accountable for the purchase decision while giving every function the evidence relevant to its risk. Marketing supplied leading demand, planners owned the order, Finance saw liquidity, Sales saw protected availability, and overrides improved the next cycle. That is what removed fear stock without making customer service collateral damage.
 
-| Source | How I applied it |
-|---|---|
-| [Tashman — Out-of-sample tests of forecasting accuracy (2000)](https://www.sciencedirect.com/science/article/pii/S0169207000000650) | I used its rolling out-of-sample principles to validate demand performance beyond the model-fitting period. |
-| [World Bank — Impact Evaluation in Practice](https://www.worldbank.org/en/programs/sief-trust-fund/publication/impact-evaluation-in-practice) | I used its counterfactual principles to evaluate inventory and service changes against a credible baseline. |
+### Research used
+
+- [Reiner and Fichtinger, demand forecasting with price and market information (2009)](https://doi.org/10.1016/j.ijpe.2008.08.009) — paired evaluation of forecast, service level, inventory, and bullwhip behavior.
+- [Tashman, out-of-sample forecast evaluation (2000)](https://doi.org/10.1016/S0169-2070(00)00065-0) — rolling historical validation rather than in-sample fit.
+- [Disney and Towill, customer service and bullwhip control (2006)](https://doi.org/10.1016/j.ejor.2005.01.026) — service, stock variance, and order variance as a joint replenishment problem.
+- [Role chronology](https://github.com/beastofbayarea/shivam-singh-strategy-consulting/blob/main/shivam-singh-strategy-consulting.pdf) — establishes my McKinsey work period.
