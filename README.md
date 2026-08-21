@@ -1,53 +1,39 @@
-# Shivam Singh - Strategy and Transformation Consulting
+# Shivam Singh — Strategy & Transformation Consulting
 
-## Profile
+I work on the point where strategy becomes an operating decision: what the business will stop, where authority will move, which capability must exist, and how leaders will know value is real before the final financial result arrives.
 
-Hi, I’m Shivam. I like the blank-page questions that sit between strategy and execution: Where should we play? What would have to change in the operating model? Which value is real? What can the organization absorb, and how will leaders know the transformation is working before the final number arrives?
+The four transformations here are not variations of one playbook. Each required a different intervention—working-capital governance, finance-control redesign, regional data architecture, or a change in distribution model—but all converted analysis into behavior the organization could sustain.
 
-You can reach me at [shiv-strategy@umich.edu](mailto:shiv-strategy@umich.edu) or connect with me on [LinkedIn](https://www.linkedin.com/in/beastofbayarea).
+[Resume](./shivam-singh-strategy-consulting.pdf) · [LinkedIn](https://www.linkedin.com/in/beastofbayarea) · [shiv-strategy@umich.edu](mailto:shiv-strategy@umich.edu)
 
-## How I work through a transformation
+## Cash trapped in “safety” inventory
 
-I start by making the decision explicit. Then I break the problem into hypotheses and workstreams that can change that decision—not analyses that are merely interesting.
+[The D2C working-capital transformation](./projects/d2c-inventory-working-capital-transformation.md) began with growing brands whose revenue concealed fear stock. One purchase order exposed the bullwhip: marketing, sales, purchasing, and finance were acting on different demand truths.
 
-Once the direction is clear, I connect it to capabilities, processes, governance, behavior, milestones, and economics. A strategy becomes useful when the people running the business can see what changes on Monday morning and how value will be measured.
+I brought campaign signals into daily planner-ready data, gave inventory segments different economic roles, protected high-value items, and turned planner overrides into governed evidence. Portfolio inventory days moved from 90 to 70, $2.5 million of working capital was released, protected-item stockouts fell 40%, and inventory turns rose from 2.5× to 4.0×. A roughly $1.2 million EBITDA effect remained modeled. The transformation did not optimize inventory in isolation; it changed how the company traded cash, service, and uncertainty.
 
-## Research
+## Reconciliation treated as exception ownership
 
-I co-developed a peer-reviewed framework for AI-enabled business resilience in the [AI and business climate-resilience study](./publications/journal-of-cleaner-production-ai-business-climate-resilience-study-2023.pdf). It reflects my interest in using research to clarify how technology changes organizational capability rather than treating technology adoption as the outcome itself.
+[The SAP finance transformation](./projects/finance-transformation-sap-reconciliation.md) covered six departments, five offices, and more than 200 users. The technical obstacle was not moving spreadsheets into SAP. It was agreeing what each field meant, which evidence made a match defensible, and who owned an exception through controller approval.
 
-## From question to operating plan
+A non-critical pilot earned authority over the close. The program finished in 102 days against a 120-day baseline, moved the error rate from 20% to 5% in the first quarter and later near zero as reported, accelerated exception resolution 25%, and reached 95% adoption within three months. Recurring capacity improved 25%, annual operating value reached $1.5 million, and the negotiated license price fell 15%. The control system succeeded because the exception—not the dashboard—became the unit of work.
 
-These projects follow my career experience from newest to oldest. Each one reads as a detailed conversation about the question, the evidence, the choice, the operating model, and the path to value. External market and methodology sources inside every file form the analytical foundation.
+## Regional scale without custom-core fragmentation
 
-### Amazon Web Services (AWS)
+[Regional fulfillment operating-model transformation](./projects/regional-fulfillment-operating-model-transformation.md) addressed vendor data inside an already regionalized network. One delayed update made the architecture undeniable: an overnight batch could not support regional promise decisions.
 
-**Principal, Strategy and Transformation** | July 2024 - Present
+I led the vendor-data and roadmap reset around a common streaming core with market-specific edges, explicit decision rights, and defect-concentration evidence. Signal latency fell from as much as 38 hours to under five minutes, errors from 8% to 0.5%, and the immediate data-quality scope shrank 60% while retaining the classes behind roughly 80% of incidents. A major seller integration shipped two days early, protected more than $50 million of existing GMV, created a $200,000 contract, and supported more than $1 million in annualized value. Continuity, new commercial value, and savings stayed separate in the account.
 
-#### [Regional fulfillment: operating-model transformation](./projects/regional-fulfillment-operating-model-transformation.md)
+## Stop the launch; change the distribution economics
 
-I led later-stage vendor-data and roadmap work inside an already regionalized fulfillment network. Streaming modernization, explicit decision rights, and an evidence-based scope reset cut signal latency and errors while protecting a major seller integration; the project does not claim authorship of Amazon's earlier eight-region rollout.
+[The rewards-marketplace B2B2C pivot](./projects/rewards-marketplace-b2b2c-distribution-pivot.md) began with a proposed $50 million-plus direct-to-consumer launch whose economics deteriorated as it scaled. I put the downside distribution in front of executives and recommended stopping—not optimizing—the launch.
 
-### Rakuten Group, Inc.
+The replacement used employer distribution and existing contracts, with scale gates and a 15% partner-concentration ceiling. CAC fell from about $42 to $8.50, day-30 retention rose from 34% to 67%, monthly transactions per active user rose from 1.8 to 3.2, LTV:CAC moved from 0.8× to 4.5×, and payback fell from eighteen months to four. Fifteen partners were signed in six months, and the contract cycle reached eleven weeks against a roughly nine-month benchmark. The strategy worked because it changed who brought the customer and why the customer returned—not the campaign creative.
 
-**Corporate Strategy and Transformation - MBA Intern** | June 2023 - December 2023
+## The consulting standard behind the work
 
-#### [Rewards marketplace: B2B2C distribution pivot](./projects/rewards-marketplace-b2b2c-distribution-pivot.md)
+I use hypotheses to expose the decision, then connect the chosen direction to process, data, governance, capability, incentives, adoption, and an economic ledger. Stakeholder alignment is not agreement in a workshop; it is clear authority and observable behavior after the workshop ends.
 
-I advised a rewards marketplace to stop a $50M+ direct-to-consumer launch after scenario analysis showed structurally destructive economics. A B2B2C alternative used employer distribution, existing contracts, concentration limits, and conservative scale gates to create profitable, retained growth.
+My research on organizational capability also informs that practice. I co-developed a peer-reviewed [AI and business climate-resilience study](./publications/journal-of-cleaner-production-ai-business-climate-resilience-study-2023.pdf), examining how technology can strengthen adaptation rather than treating technology adoption as the outcome itself.
 
-### The D. E. Shaw Group
-
-**Vice President, Transformation** | July 2016 - December 2019
-
-#### [Finance transformation: SAP reconciliation](./projects/finance-transformation-sap-reconciliation.md)
-
-I led a global record-to-report transformation across six departments, five offices, and more than 200 users. Standardized finance data, automated matching and exception ownership, phased migration, role-based adoption, and real-time controls replaced six departmental versions of truth.
-
-### McKinsey & Company
-
-**Engagement Associate, Strategy and Transformation** | July 2014 - June 2016
-
-#### [D2C inventory: working-capital transformation](./projects/d2c-inventory-working-capital-transformation.md)
-
-I led demand-planning transformation for growing direct-to-consumer brands whose revenue growth concealed trapped cash. A unified inventory-efficiency model brought marketing signals into purchasing, segmented inventory by economic role, and treated planner overrides as governed learning.
+A strategy is finished when the operating team can make the changed decision on Monday morning, explain why, and measure both the intended value and the trade-off it accepted.
