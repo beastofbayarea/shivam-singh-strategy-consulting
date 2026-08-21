@@ -52,8 +52,6 @@ Stories are grouped by their primary resume experience in reverse chronological 
 
 **Engagement Associate, Strategy and Transformation** | July 2014 - June 2016
 
-- [APAC expansion: analytics and localized GTM](./projects/apac-expansion-analytics-localized-gtm.md) - operating model, localization, and market-entry execution
-- [Retail pricing: explainable elasticity](./projects/retail-pricing-explainable-elasticity.md) - pricing transformation, guardrails, and value capture
 - [D2C inventory: working-capital transformation](./projects/d2c-inventory-working-capital-transformation.md) - inventory operating model and measurable cash release
 
 ## Profile
