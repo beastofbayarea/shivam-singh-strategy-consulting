@@ -1,61 +1,53 @@
-# D. E. Shaw Finance Transformation — SAP Reconciliation Automation
+# Creating One Governed Record-to-Report Process Across Five Offices
 
-## What I worked on
+I led this finance transformation during my [D. E. Shaw experience from July 2016 to December 2019](https://github.com/beastofbayarea/shivam-singh-strategy-consulting/blob/main/shivam-singh-strategy-consulting.pdf).
 
-I completed this work during my [D. E. Shaw experience from July 2016 to December 2019](https://github.com/beastofbayarea/shivam-singh-strategy-consulting/blob/main/shivam-singh-strategy-consulting.pdf).
+Six departments across five offices maintained different spreadsheet definitions, reconciliation methods, and email-routed exceptions. Discrepancies appeared late, reporting was difficult to trust, and more than 200 users relied on local habits that the central design did not fully capture.
 
-I led a global record-to-report transformation across six departments, five offices, and more than 200 users. Standardized finance data, automated matching and exception ownership, phased migration, role-based adoption, and real-time controls replaced six departmental versions of truth.
+I led the move to a shared SAP S/4HANA and Tableau operating model across standardization, automation, adoption, and control.
 
-## At a glance
+## Financial meaning came before system configuration
 
-- I led a multi-office SAP S/4HANA and Tableau transformation that reduced reconciliation errors from 20% to 5% in the first quarter and later near zero.
-- I reduced the reported 120-day completion cycle 15% to 102 days and cut exception-resolution time 25%.
-- I reached 95% adoption across 200+ users, released 25% of team capacity, and delivered $1.5M in annual savings with reported first-year ROI of 300%.
+I audited historical reports, exception logs, process documents, ownership, definitions, and resource use. Finance owners then mapped legacy fields into canonical business definitions; IT implemented the mapping; control owners approved the resulting evidence.
 
-## The situation
+COSO's internal-control framework supplied the primary structure around control environment, risk assessment, control activity, information, communication, and monitoring. BCBS 239 reinforced the importance of accurate, complete, timely, and adaptable aggregated data.
 
-Manual spreadsheets, incompatible definitions, email-routed exceptions, and late discovery of discrepancies undermined reporting speed and executive trust.
+Those frameworks supported a practical rule: the software could automate a match only after the organization agreed what the fields meant.
 
-## What I needed to accomplish
+## Exceptions became a managed queue
 
-I needed to create one governed global close process while protecting live reporting deadlines, regional requirements, accounting intent, and user adoption.
+The old process passed discrepancies through email, which hid age, ownership, and repeated causes. I created an exception workflow with reason, amount, source, owner, age, evidence, and resolution.
 
-## What I did
+Automation handled high-confidence matches. Ambiguous transactions remained visible for review rather than being forced into false agreement. Repeated exceptions became candidates for data, policy, or process correction.
 
-- I audited historical reports, exception logs, process documents, ownership, and resource allocation.
-- I separated the program into standardization, automation, change, and governance workstreams.
-- I mapped legacy fields to canonical definitions with Finance ownership, IT implementation, parallel reconciliation, and control approval.
-- I rolled out from non-critical departments through lower-risk offices to high-impact finance teams with role-based training and champions.
+## The rollout protected live reporting
 
-## The results
+I moved from non-critical departments to lower-risk offices and then to the highest-impact Finance teams. Each stage used parallel reconciliation, role-based training, local champions, and explicit retirement criteria for the legacy process.
 
-- Errors fell from 20% to 5% initially and approached zero in sustained operation.
-- Completion time declined 15% to 102 days.
-- Adoption reached 95% within three months.
-- Annual savings reached $1.5M, and 25% of team capacity was released.
+CFO and COO sponsorship resolved cross-functional decisions, while Finance, IT, Operations, Legal, Compliance, local offices, and vendors shared one transformation scorecard.
 
-## Decisions and trade-offs
+I distinguished adoption by role. A preparer needed to execute and resolve; a reviewer needed to inspect evidence; a leader needed to understand control and reporting implications. One generic training session would not produce a governed close.
 
-- I standardized financial meaning before automating it.
-- I made exceptions visible, owned, aged, and evidence-backed rather than forcing false auto-matches.
-- I used phased parallel runs to protect the close before legacy retirement.
+## The result
 
-## How I led
+- Reconciliation errors fell from 20% to 5% in the first quarter and approached zero in sustained operation.
+- The planned 120-day implementation completion cycle improved 15% to 102 days.
+- Exception-resolution time declined 25%.
+- Adoption reached 95% within three months across more than 200 users.
+- The program released 25% of team capacity and produced $1.5 million in annual savings.
+- Reported first-year return on investment reached 300%.
 
-I secured CFO and COO sponsorship and coordinated Finance, IT, Operations, Legal, Compliance, local offices, and platform vendors through a shared transformation scorecard.
+I keep the 120-day implementation-duration baseline separate from recurring financial-close measures; I do not relabel it as close time.
 
-## A note on measurement
+## What made the transformation stick
 
-I keep the 120-day project-duration baseline separate from recurring close-cycle measures. I report the 15% improvement without redefining that baseline.
+The durable change was not the dashboard or ERP module. It was one financial definition, a visible exception owner, evidence-backed parallel runs, and role-specific adoption. I use technology to reinforce that operating model—not to conceal unresolved meaning behind a standardized interface.
 
-## Why I chose this approach
+## External foundations
 
-I used [COSO - Internal Control Integrated Framework (2013)](https://www.coso.org/guidance-on-ic/pages/default.aspx) to ground financial-control, reliable-information, and monitoring framework. I used [Basel Committee - BCBS 239 (2013)](https://www.bis.org/publ/bcbs239.htm) to ground data aggregation, quality, governance, and reporting principles.
+These sources supplied the primary financial-control and risk-data methodology. My resume is linked only for employment chronology.
 
-## Sources and external context
-
-I used independent methodology and market evidence to shape the work. The resume link above is included only to establish the employment timeline.
-
-| Source | How it informed my work | Timing |
-|---|---|---|
-| [COSO - Internal Control Integrated Framework (2013)](https://www.coso.org/guidance-on-ic/pages/default.aspx) | I used it to ground financial-control, reliable-information, and monitoring framework. | — |
+| Source | How I applied it |
+|---|---|
+| [COSO — Internal Control—Integrated Framework](https://www.coso.org/guidance-on-ic/pages/default.aspx) | I used its control, reliable-information, communication, ownership, and monitoring principles for the global process. |
+| [Basel Committee — Principles for effective risk data aggregation and risk reporting (BCBS 239, 2013)](https://www.bis.org/publ/bcbs239.htm) | I used its accuracy, completeness, timeliness, adaptability, and governance principles for shared finance data. |

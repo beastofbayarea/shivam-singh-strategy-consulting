@@ -1,62 +1,56 @@
-# D2C Inventory — Demand Signals & Working-Capital Release
+# Releasing Working Capital Without Creating D2C Stockouts
 
-## What I worked on
+I led this demand-planning transformation during my [McKinsey experience from July 2014 to June 2016](https://github.com/beastofbayarea/shivam-singh-strategy-consulting/blob/main/shivam-singh-strategy-consulting.pdf).
 
-I completed this work during my [McKinsey experience from July 2014 to June 2016](https://github.com/beastofbayarea/shivam-singh-strategy-consulting/blob/main/shivam-singh-strategy-consulting.pdf).
+The brands were growing, but cash was accumulating in inventory. Marketing signals reached Operations as much as two weeks late, planners added 15%–20% buffers because they did not trust the forecast, and Finance, Sales, and Supply Chain optimized different measures. The ERP also had no API before a critical holiday purchase decision.
 
-I led demand-planning transformation for growing direct-to-consumer brands whose revenue growth concealed trapped cash. A unified inventory-efficiency model brought marketing signals into purchasing, segmented inventory by economic role, and treated planner overrides as governed learning.
+My assignment was to release working capital while protecting the products and service levels that created the revenue.
 
-## At a glance
+## I mapped the decision, not only the stock
 
-- I reduced inventory days from 90 to 70, released $2.5M in working capital, and improved inventory turns from 2.5x to 4.0x.
-- I connected advertising, search, sales, stock, lead-time, and promotion signals in a daily SKU-level planning feed, replacing a 14-day lag.
-- I reduced top-tier SKU stockouts 40% and generated an estimated $1.2M in incremental EBITDA while preserving human exception control.
+I followed the purchase-order value stream from campaign plan and demand signal through forecast, planner decision, supplier lead time, warehouse receipt, and customer sale. That exposed where information aged, where a buffer entered, and which team absorbed the consequence.
 
-## The situation
+I then joined advertising, search, sales, stock, lead-time, and promotion signals in a daily SKU-level planning feed. The goal was not a more impressive forecast; it was a better purchase decision with enough evidence for a planner to understand and challenge it.
 
-Marketing signals reached Operations two weeks late, planners added 15–20% fear buffers, and teams optimized revenue, fill rate, or cash independently. The ERP lacked an API before a critical holiday buy.
+Tashman's work on out-of-sample forecast evaluation influenced the validation design. I tested performance over rolling historical windows rather than judge the model on the same periods used to tune it.
 
-## What I needed to accomplish
+## Inventory had different economic jobs
 
-I needed to synchronize demand, working capital, service levels, and incentives in one practical decision loop without creating blanket inventory cuts.
+A blanket 22% reduction would have released cash quickly and damaged availability. I classified inventory by economic role and protected service targets for high-value A-class items. Slow, uncertain, seasonal, and strategic products received different policies.
 
-## What I did
+The scorecard paired inventory days and working capital with stockouts, availability, turns, and contribution. No function could claim success by improving its own measure while transferring the cost elsewhere.
 
-- I mapped the purchase-order value stream from campaign plan through warehouse receipt.
-- I classified inventory by economic role and protected high-value A-class service targets.
-- I piloted in a lower-volatility brand, retained reason-coded overrides, and used early proof to expand.
-- I built a deliberate CSV bridge around the ERP constraint to meet the decision date while justifying durable integration.
+## I kept human judgment observable
 
-## The results
+Planners could override the recommendation, but they selected a reason. Those reason codes made judgment part of the learning loop: a promotion not represented in the feed, a supplier issue, a local demand change, or simple disagreement could be evaluated later.
+
+I piloted the process in a lower-volatility brand before expanding. World Bank impact-evaluation guidance influenced the comparison design so observed inventory and service changes could be evaluated against a credible baseline rather than attributed automatically to the new process.
+
+## The ERP constraint did not stop the decision
+
+Waiting for a full integration would have missed the holiday buy. I built a deliberate CSV bridge with validation, ownership, and a documented replacement path. It was a temporary operating control, not an accidental permanent architecture.
+
+The bridge delivered the daily decision feed in time and created evidence for the durable integration investment.
+
+## What changed
 
 - Inventory days fell from 90 to 70.
-- The program released $2.5M in working capital and improved turns to 4.0x.
+- The program released $2.5 million in working capital.
+- Inventory turns improved from 2.5 to 4.0 times.
 - A-class stockouts declined 40%.
-- Incremental EBITDA reached an estimated $1.2M.
+- Incremental EBITDA reached an estimated $1.2 million.
 
-## Decisions and trade-offs
+I report the 90-to-70 movement specifically as inventory days, not as the broader cash-conversion cycle.
 
-- I reduced excess by SKU role rather than impose a uniform cut.
-- I paired liquidity and service metrics so one function cannot improve at another's expense.
-- I used a temporary integration bridge with explicit replacement intent when timing is critical.
+## The transformation lesson
 
-## How I led
+Working capital improves sustainably when the organization trusts the demand decision. I combine current signals, economic segmentation, visible overrides, and paired liquidity-and-service measures. That allows the business to remove fear inventory without treating availability as collateral damage.
 
-I aligned CFO, Sales, Marketing, planners, brand leaders, warehouse teams, and technology owners around one liquidity-and-availability scorecard.
+## External foundations
 
-## A note on measurement
+These sources supplied the primary forecast-validation and causal-measurement methodology. My resume establishes employment chronology only.
 
-I distinguish cash-conversion cycle from inventory days. I report the 90-to-70 change specifically as inventory days.
-
-## Why I chose this approach
-
-I used [Tashman - Out-of-sample tests of forecasting accuracy (2000)](https://www.sciencedirect.com/science/article/pii/S0169207000000650) to ground forecast-validation methodology. I used [World Bank - Impact Evaluation in Practice](https://www.worldbank.org/en/programs/sief-trust-fund/publication/impact-evaluation-in-practice) to ground causal and counterfactual evaluation framework.
-
-## Sources and external context
-
-I used independent methodology and market evidence to shape the work. The resume link above is included only to establish the employment timeline.
-
-| Source | How it informed my work | Timing |
-|---|---|---|
-| [Tashman - Out-of-sample tests of forecasting accuracy (2000)](https://www.sciencedirect.com/science/article/pii/S0169207000000650) | I used it to ground forecast-validation methodology. | — |
-| [World Bank - Impact Evaluation in Practice](https://www.worldbank.org/en/programs/sief-trust-fund/publication/impact-evaluation-in-practice) | I used it to ground causal and counterfactual evaluation framework. | — |
+| Source | How I applied it |
+|---|---|
+| [Tashman — Out-of-sample tests of forecasting accuracy (2000)](https://www.sciencedirect.com/science/article/pii/S0169207000000650) | I used its rolling out-of-sample principles to validate demand performance beyond the model-fitting period. |
+| [World Bank — Impact Evaluation in Practice](https://www.worldbank.org/en/programs/sief-trust-fund/publication/impact-evaluation-in-practice) | I used its counterfactual principles to evaluate inventory and service changes against a credible baseline. |

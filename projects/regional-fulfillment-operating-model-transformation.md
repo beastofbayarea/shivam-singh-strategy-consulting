@@ -1,59 +1,53 @@
-# Regional Fulfillment - Operating-Model Transformation
+# Moving Fulfillment Decisions from National Batches to Regional Signals
 
-## What I worked on
+I led this operating-model transformation during my [AWS experience beginning in July 2024](https://github.com/beastofbayarea/shivam-singh-strategy-consulting/blob/main/shivam-singh-strategy-consulting.pdf).
 
-I completed this work during my [AWS experience from July 2024 to present](https://github.com/beastofbayarea/shivam-singh-strategy-consulting/blob/main/shivam-singh-strategy-consulting.pdf).
+The physical fulfillment network had reached a speed ceiling, but the limiting factor was not only warehouse distance. Vendor inventory signals arrived as much as 38 hours late and carried an 8% error rate. Operations, Sales, Product, Data, and regional delivery teams also held competing commitments, while brownfield facilities made a uniform automation plan impractical.
 
-I led the data and operating-model transformation enabling a national-to-regional fulfillment strategy. Streaming modernization, explicit decision rights, an evidence-based scope reset, and a staged regional rollout connected inventory-signal integrity to physical delivery speed and customer value.
+I connected data modernization to a regional operating model in which current, accurate signals could drive local fulfillment decisions.
 
-## At a glance
+## One vendor update exposed the real bottleneck
 
-- I led a supply-chain transformation that reduced inventory-signal latency from 38 hours to under five minutes and errors from 8% to 0.5%.
-- I resolved a resource deadlock by reducing the data-quality roadmap 60% around the two defects causing 80% of vendor pain, freeing a tiger team for a critical integration.
-- I supported 76% regional fulfillment, generated more than $1M in annual savings, reduced support tickets 25%, and protected a major vendor's $50M+ GMV.
+I traced a single inventory change from the vendor through ingestion, transformation, availability, promise, order, and regional fulfillment. The value-stream view showed where the signal waited, where its meaning changed, and which downstream decision relied on stale data.
 
-## The situation
+The Kafka paper's distributed-log model supplied the technical foundation for a replayable event stream. I replaced batch transfers with streaming ingestion, distributed processing, schema rules, and real-time quality checks.
 
-The physical network had reached a speed ceiling, but vendor inventory signals arrived late and wrong. Operations, Sales, and Product had competing commitments, while brownfield facilities made the regional operating-model change harder to execute.
+The resulting platform reduced inventory-signal latency to under five minutes and error to 0.5%. More important, regional teams could act on the same current record.
 
-## What I needed to accomplish
+## A resource conflict forced a scope decision
 
-I needed to translate the regional-fulfillment strategy into a practical operating model, transformation roadmap, prioritization decision, and staged rollout without abandoning a high-value customer dependency.
+A critical integration for a major vendor competed with a broader data-quality roadmap. Rather than cancel one workstream or split the team until neither could finish, I analyzed the defect distribution.
 
-## What I did
+Two defect classes caused approximately 80% of vendor pain. I reduced the quality roadmap by 60% around those defects and released a tiger team for the integration. The reduced scope retained the highest customer value while removing low-yield work from the immediate window.
 
-- I traced one vendor update through the end-to-end value stream to identify the true operational bottleneck.
-- I replaced batch transfers with streaming ingestion, distributed processing, and real-time quality rules.
-- I reset the roadmap around the small number of defects creating most customer pain and redirected capacity to the critical integration.
-- I tested the hardest region first and treated regionalization as a resilience and governance model, not only a cost initiative.
-- I aligned operations, sales, data, product, vendors, and regional delivery teams around one latency, accuracy, fulfillment, and value scorecard.
+The integration shipped two days early and protected more than $50 million in gross merchandise value.
 
-## The results
+## The hardest region became the scale gate
 
-- Latency fell below five minutes, and error rate fell to 0.5%.
-- Support tickets declined 25%, and annual savings exceeded $1M.
+I tested the new operating model in the most difficult region rather than select an easy showcase. The rollout reviewed signal quality, local decision rights, capacity, recovery, vendor experience, customer promise, and support behavior.
+
+AWS Well-Architected reliability guidance shaped the failure and recovery model. Regionalization was valuable not only for speed and cost; it could limit blast radius and create a clearer recovery unit.
+
+A brownfield robotics rollout failed its operating assumptions. I paused it and recovered through software and process changes rather than commit to expensive facility reconstruction. The decision preserved the transformation outcome without forcing every location into the same physical design.
+
+## The measured result
+
+- Inventory-signal latency fell from 38 hours to under five minutes.
+- Error rate declined from 8% to 0.5%.
 - Regional fulfillment reached 76%.
-- The major-vendor integration shipped two days early and protected more than $50M in GMV.
+- Support tickets fell 25%.
+- Annual savings exceeded $1 million.
+- The major-vendor integration shipped two days early and protected more than $50 million in GMV.
 
-## Decisions and trade-offs
+## The operating-model lesson
 
-- I resolved the resource conflict through evidence-based scope reduction rather than cancelling a workstream.
-- I used the most operationally difficult region as the first scale gate.
-- I paused a failing brownfield robotics rollout and recovered through software rather than expensive facility reconstruction.
+Regional fulfillment is a decision-rights and information problem as much as a network problem. I standardize the event and quality contract, define which decisions move closer to the customer, and scale from the hardest credible environment. That makes the physical model responsive without requiring identical facilities.
 
-## How I led
+## External foundations
 
-I converted a data-modernization problem into an operating-model transformation, aligning functional leaders around decision rights, prioritized investments, rollout gates, and measurable customer and fulfillment outcomes.
+These sources supplied the primary streaming and reliability methodology. My resume establishes employment chronology only.
 
-## Why I chose this approach
-
-I used [AWS - Well-Architected Reliability Pillar (2024)](https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/welcome.html) to ground reliability, monitoring, failure, and recovery framework. I used [Kreps, Narkhede and Rao - Kafka (2011)](https://cwiki.apache.org/confluence/download/attachments/27822226/Kafka-netdb-06-2011.pdf) to ground distributed-log and replayable-event architecture.
-
-## Sources and external context
-
-I used independent methodology and market evidence to shape the work. The resume link above is included only to establish the employment timeline.
-
-| Source | How it informed my work | Timing |
-|---|---|---|
-| [AWS - Well-Architected Reliability Pillar (2024)](https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/welcome.html) | I used it to ground reliability, monitoring, failure, and recovery framework. | — |
-| [Kreps, Narkhede and Rao - Kafka (2011)](https://cwiki.apache.org/confluence/download/attachments/27822226/Kafka-netdb-06-2011.pdf) | I used it to ground distributed-log and replayable-event architecture. | — |
+| Source | How I applied it |
+|---|---|
+| [Kreps, Narkhede and Rao — Kafka: a Distributed Messaging System for Log Processing (2011)](https://cwiki.apache.org/confluence/download/attachments/27822226/Kafka-netdb-06-2011.pdf) | I used its distributed-log and replay model for the inventory event architecture. |
+| [AWS — Well-Architected Reliability Pillar](https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/welcome.html) | I used its failure-management, isolation, monitoring, and recovery principles for the regional operating model. |

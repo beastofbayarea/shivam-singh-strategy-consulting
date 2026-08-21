@@ -1,62 +1,53 @@
-# Rewards Marketplace — B2B2C Distribution Pivot
+# Stopping a Destructive DTC Launch and Designing a B2B2C Alternative
 
-## What I worked on
+I completed this strategy work during my [Rakuten experience from June to December 2023](https://github.com/beastofbayarea/shivam-singh-strategy-consulting/blob/main/shivam-singh-strategy-consulting.pdf).
 
-I completed this work during my [Rakuten experience from June to December 2023](https://github.com/beastofbayarea/shivam-singh-strategy-consulting/blob/main/shivam-singh-strategy-consulting.pdf).
+The rewards marketplace had momentum behind a direct-to-consumer launch worth more than $50 million. Seventy percent of planned spend went to paid acquisition even though projected customer-acquisition cost exceeded lifetime value. Leadership initially asked how to launch faster.
 
-I advised a rewards marketplace to stop a $50M+ direct-to-consumer launch after scenario analysis showed structurally destructive economics. A B2B2C alternative used employer distribution, existing contracts, concentration limits, and conservative scale gates to create profitable, retained growth.
+I changed the question to: which distribution model could acquire a retained, transacting user without destroying value on every additional customer?
 
-## At a glance
+## Ten thousand scenarios made the downside visible
 
-- I built a 10,000-run downside model showing a 68% probability of losing more than $20M in year one under the approved DTC plan.
-- I recommended stopping the launch and designed an employer-led B2B2C model with MSA addenda, minimum guarantees, onboarding playbooks, and concentration limits.
-- The client reduced CAC from $42 to $8.50, increased Day-30 retention from 34% to 67%, improved LTV-to-CAC from 0.8x to 4.5x, and cut payback from 18 months to four.
+I modeled media cost, conversion, churn, transaction frequency, gross margin, and lifetime value across 10,000 simulations. Under the approved DTC plan, the model showed a 68% probability of losing more than $20 million in the first year.
 
-## The situation
+The range mattered more than a single forecast. It showed that plausible improvement in one variable did not repair the structural mismatch between acquisition cost and customer value.
 
-Seventy percent of the planned spend went to consumer acquisition even though projected CAC exceeded lifetime value. Leadership had momentum behind the launch and initially asked how to move faster.
+I recommended stopping the launch rather than optimizing execution around a negative unit.
 
-## What I needed to accomplish
+## Employer distribution changed the acquisition mechanism
 
-I needed to determine whether the existing growth model could create value, recommend a viable alternative, and align Product, Finance, Partnerships, and Operations around a reversible test.
+The alternative used employers and existing enterprise relationships as the route to the end customer. An MSA addendum could replace a new contract, and the employer could introduce the rewards experience inside an existing relationship.
 
-## What I did
+I designed the B2B2C offer around minimum guarantees, onboarding playbooks, partner responsibility, employee activation, transaction use, reporting, and renewal. The World Bank's partnership reference guide influenced how I made governance, risk allocation, implementation, and accountability explicit, even though this was a commercial partnership rather than a public-private project.
 
-- I modeled media cost, churn, and lifetime value across 10,000 scenarios.
-- I reframed the executive question from launch speed to profitable retained-user distribution.
-- I designed an internal employee pilot and targeted existing enterprise relationships where an MSA addendum could replace a new contract.
-- I set conservative retention, transaction, economics, and partner-concentration gates before scale.
+## The first pilot was intentionally discounted
 
-## The results
+I began with an internal employee cohort and a small number of existing enterprise relationships. Before launch, I set gates for Day-30 retention, transaction frequency, acquisition cost, payback, support, and partner concentration.
 
-- CAC fell 80% to $8.50.
-- Day-30 retention increased to 67%, and transaction frequency increased from 1.8 to 3.2 per month.
-- LTV-to-CAC reached 4.5x, and payback fell to four months.
+The World Bank's impact-evaluation methodology influenced the comparison design. I also discounted the first pilot's apparent result by 30%–40% in planning because early logos often receive unusual attention and may not represent the scaled operating model.
+
+No single employer could supply more than 15% of new users. This prevented a successful distribution pivot from creating a new concentration dependency.
+
+## The client outcome
+
+- Customer-acquisition cost fell 80%, from $42 to $8.50.
+- Day-30 retention increased from 34% to 67%.
+- Monthly transaction frequency increased from 1.8 to 3.2.
+- Lifetime-value-to-acquisition-cost improved from 0.8 to 4.5 times.
+- Payback fell from 18 months to four.
 - The client diversified to 15 partners within six months.
 
-## Decisions and trade-offs
+I owned the fact base, scenario model, recommendation, pilot design, scale guardrails, and executive alignment. Contracting, operations, and realized profit and loss remained the client's responsibility; I do not present those operating results as outcomes I delivered alone.
 
-- I stopped rather than optimize a model in which every incremental user destroyed value.
-- I used partner distribution but cap any one source at 15% of new users.
-- I discounted early pilot results 30–40% in planning and required replication beyond the first logo.
+## The strategy lesson
 
-## How I led
+Stopping can be a growth decision. When each new customer destroys value, execution speed only accelerates the loss. I look for a distribution mechanism that changes the economics, test it through a reversible cohort, discount early success, and prevent the new channel from becoming a single point of dependence.
 
-Owned the fact base, recommendation, pilot design, scale guardrails, and executive alignment while preserving clear client ownership of contracting, operations, and realized P&L.
+## External foundations
 
-## A note on measurement
+These sources supplied the primary partnership and causal-measurement methodology. My resume is linked only for employment chronology.
 
-I distinguish my advisory contribution from the client’s execution. I directly owned the diagnosis, scenario model, recommendation, pilot and guardrail design, and executive alignment; the operating results remained client outcomes.
-
-## Why I chose this approach
-
-I used [World Bank - PPP Reference Guide 2.0 (2014)](https://ppp.worldbank.org/library/public-private-partnerships-reference-guide-version-20) to ground partnership structuring, governance, risk-allocation, and implementation framework. I used [World Bank - Impact Evaluation in Practice](https://www.worldbank.org/en/programs/sief-trust-fund/publication/impact-evaluation-in-practice) to ground causal and counterfactual measurement methodology.
-
-## Sources and external context
-
-I used independent methodology and market evidence to shape the work. The resume link above is included only to establish the employment timeline.
-
-| Source | How it informed my work | Timing |
-|---|---|---|
-| [World Bank - PPP Reference Guide 2.0 (2014)](https://ppp.worldbank.org/library/public-private-partnerships-reference-guide-version-20) | I used it to ground partnership structuring, governance, risk-allocation, and implementation framework. | — |
-| [World Bank - Impact Evaluation in Practice](https://www.worldbank.org/en/programs/sief-trust-fund/publication/impact-evaluation-in-practice) | I used it to ground causal and counterfactual measurement methodology. | — |
+| Source | How I applied it |
+|---|---|
+| [World Bank — Public-Private Partnerships Reference Guide 2.0 (2014)](https://ppp.worldbank.org/library/public-private-partnerships-reference-guide-version-20) | I adapted its governance, risk-allocation, implementation, and accountability principles to the commercial partner model. |
+| [World Bank — Impact Evaluation in Practice](https://www.worldbank.org/en/programs/sief-trust-fund/publication/impact-evaluation-in-practice) | I used its counterfactual principles to design the pilot and interpret early results conservatively. |
