@@ -1,53 +1,63 @@
-# Moving Fulfillment Decisions from National Batches to Regional Signals
+# Making Vendor Data Fit Amazon's Regional Fulfillment Network
 
-I led this operating-model transformation during my [AWS experience beginning in July 2024](https://github.com/beastofbayarea/shivam-singh-strategy-consulting/blob/main/shivam-singh-strategy-consulting.pdf).
+I led a vendor-data and roadmap recovery inside Amazon's regional fulfillment network. I had identified that customers and sellers could not benefit from nearby inventory when vendor updates arrived late or wrong, and a major seller needed an integration the existing roadmap could not absorb. I worked with Operations, Sales, Product, Data, regional delivery teams, engineers, support, and the seller's technical team.
 
-The physical fulfillment network had reached a speed ceiling, but the limiting factor was not only warehouse distance. Vendor inventory signals arrived as much as 38 hours late and carried an 8% error rate. Operations, Sales, Product, Data, and regional delivery teams also held competing commitments, while brownfield facilities made a uniform automation plan impractical.
+## Where my work begins—and where it does not
 
-I connected data modernization to a regional operating model in which current, accurate signals could drive local fulfillment decisions.
+Amazon publicly designed and activated its eight U.S. fulfillment regions during 2022 and 2023. Amazon Science reports that in-region fulfillment rose from 62% to 76% during that earlier transformation. My AWS role began in July 2024, so I do not claim to have originated the eight-region strategy or produced the 62%→76% result.
 
-## One vendor update exposed the real bottleneck
+My later project addressed an operating dependency inside that model: vendor catalog and inventory changes took as long as 38 hours to become usable and 8% contained errors. Regional placement depends on current local availability; stale data can block a customer promise as completely as a physical capacity failure.
 
-I traced a single inventory change from the vendor through ingestion, transformation, availability, promise, order, and regional fulfillment. The value-stream view showed where the signal waited, where its meaning changed, and which downstream decision relied on stale data.
+## I traced one update until the architecture became undeniable
 
-The Kafka paper's distributed-log model supplied the technical foundation for a replayable event stream. I replaced batch transfers with streaming ingestion, distributed processing, schema rules, and real-time quality checks.
+A vendor changed inventory, price, or an image. The record moved through FTP, Oracle, manual validation, and batch transformation before listing and placement systems could use it. I followed timestamps, transformations, rejects, and ownership across the path instead of accepting “slow vendor onboarding” as the diagnosis.
 
-The resulting platform reduced inventory-signal latency to under five minutes and error to 0.5%. More important, regional teams could act on the same current record.
+The replacement used:
 
-## A resource conflict forced a scope decision
+- Kafka on Amazon MSK for a replayable vendor-event stream;
+- Airflow for visible dependencies and recovery;
+- Spark for distributed transformation during large surges;
+- versioned schemas and compatibility rules; and
+- real-time quality checks before a record could influence availability.
 
-A critical integration for a major vendor competed with a broader data-quality roadmap. Rather than cancel one workstream or split the team until neither could finish, I analyzed the defect distribution.
+The Kafka distributed-log design matters here because a consumer can replay an ordered event history after a defect or rule change. That converted recovery from reconstructing a missing batch into reprocessing known events from a controlled point.
 
-Two defect classes caused approximately 80% of vendor pain. I reduced the quality roadmap by 60% around those defects and released a tiger team for the integration. The reduced scope retained the highest customer value while removing low-yield work from the immediate window.
+## A roadmap conflict became a defect-concentration decision
 
-The integration shipped two days early and protected more than $50 million in gross merchandise value.
+Product had committed to a broad data-quality product while Sales needed a custom integration for a seller contributing more than $50 million in GMV. Splitting the team evenly would have endangered both.
 
-## The hardest region became the scale gate
+I analyzed vendor incidents and found that image suppression and duplicate product identifiers caused about 80% of the pain. I cut the immediate quality roadmap by 60% around those two failures and released a tiger team for the seller integration. The seller's firewall blocked image retrieval, so the team replaced that path with token-based authentication and a compatible retrieval flow.
 
-I tested the new operating model in the most difficult region rather than select an easy showcase. The rollout reviewed signal quality, local decision rights, capacity, recovery, vendor experience, customer promise, and support behavior.
+The integration launched two days early. “Protected $50 million in GMV” means the existing seller contribution at risk was retained; it is not $50 million of incremental sales created by the project.
 
-AWS Well-Architected reliability guidance shaped the failure and recovery model. Regionalization was valuable not only for speed and cost; it could limit blast radius and create a clearer recovery unit.
+## Decision rights after launch
 
-A brownfield robotics rollout failed its operating assumptions. I paused it and recovered through software and process changes rather than commit to expensive facility reconstruction. The decision preserved the transformation outcome without forcing every location into the same physical design.
+Product owned the common event and quality contract. Seller teams owned source corrections. Data Engineering owned processing, schema compatibility, replay, and alerting. Operations decided whether a degraded field could continue. Support categorized incidents so recurring tickets changed a rule or source, not only the next response.
 
-## The measured result
+This kept a one-off integration from fragmenting the platform. The custom edge translated into the common contract; it did not become a second pipeline.
 
-- Inventory-signal latency fell from 38 hours to under five minutes.
-- Error rate declined from 8% to 0.5%.
-- Regional fulfillment reached 76%.
-- Support tickets fell 25%.
-- Annual savings exceeded $1 million.
-- The major-vendor integration shipped two days early and protected more than $50 million in GMV.
+## Results attributable to this project
 
-## The operating-model lesson
+| Measure | Baseline | Target | Result | Measurement |
+|---|---:|---:|---:|---|
+| Vendor-signal latency | Up to 38 hours | Under 5 minutes | Under 5 minutes | Source-event time to accepted downstream signal |
+| Data error rate | 8% | At or below 0.5% | 0.5% | Rejected or corrected records divided by processed records |
+| DQA launch scope | Full roadmap | Preserve highest-value defect coverage | 60% smaller immediate scope, retaining the two classes behind ~80% of incidents | Incident distribution and approved backlog |
+| Seller integration | At-risk schedule | Protect seller relationship and ship on time | 2 days early | Approved milestone versus production release |
+| Support demand | Ticket baseline indexed to 100 | Reduce recurring defects | Index 75 | Comparable support tickets after launch |
+| Annual savings | No accepted run rate | Exceed $1M | More than $1M | Annualized support and processing savings |
+| Commercial result | No new contract | Convert proof into paid value | $200K contract | Executed commercial agreement |
+| Existing seller GMV at risk | More than $50M | Protect continuity | Protected | Seller contribution remained active; no incremental GMV attribution |
 
-Regional fulfillment is a decision-rights and information problem as much as a network problem. I standardize the event and quality contract, define which decisions move closer to the customer, and scale from the hardest credible environment. That makes the physical model responsive without requiring identical facilities.
+## Strategic importance without borrowed credit
 
-## External foundations
+Public Amazon evidence explains why this dependency mattered. Regionalization shortened distance and reduced network complexity; later Amazon reporting tied it to faster delivery and lower cost to serve. My project's contribution was narrower and defensible: make vendor data timely, accurate, recoverable, and supportable enough for a regional network to use.
 
-These sources supplied the primary streaming and reliability methodology. My resume establishes employment chronology only.
+### External context and technical grounding
 
-| Source | How I applied it |
-|---|---|
-| [Kreps, Narkhede and Rao — Kafka: a Distributed Messaging System for Log Processing (2011)](https://cwiki.apache.org/confluence/download/attachments/27822226/Kafka-netdb-06-2011.pdf) | I used its distributed-log and replay model for the inventory event architecture. |
-| [AWS — Well-Architected Reliability Pillar](https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/welcome.html) | I used its failure-management, isolation, monitoring, and recovery principles for the regional operating model. |
+- [Amazon 2022 shareholder letter](https://ir.aboutamazon.com/files/doc_downloads/AnnualMeetingMaterials/2023/2022-Shareholder-Letter.pdf) — primary description of the national-to-eight-region redesign.
+- [Amazon Science, regional fulfillment at 62%→76% (2023)](https://www.amazon.science/news-and-features/how-amazon-reworked-its-fulfillment-network-to-meet-customer-demand) — public timing and result used to bound, not inflate, my role.
+- [Amazon 2023 Sustainability Report](https://sustainability.aboutamazon.com/2023-sustainability-report.pdf) — external record of eight-region operations and additional in-region units.
+- [Kreps, Narkhede, and Rao, Kafka distributed log (2011)](https://cwiki.apache.org/confluence/download/attachments/27822226/Kafka-netdb-06-2011.pdf) — event ordering, partitioning, consumption, and replay model.
+- [AWS Well-Architected Reliability Pillar](https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/welcome.html) — failure isolation, observability, and recovery method.
+- [Role chronology](https://github.com/beastofbayarea/shivam-singh-strategy-consulting/blob/main/shivam-singh-strategy-consulting.pdf) — establishes my AWS tenure beginning in July 2024.

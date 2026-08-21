@@ -26,7 +26,7 @@ These projects follow my career experience from newest to oldest. Each one reads
 
 #### [Regional fulfillment: operating-model transformation](./projects/regional-fulfillment-operating-model-transformation.md)
 
-I led the data and operating-model transformation enabling a national-to-regional fulfillment strategy. Streaming modernization, explicit decision rights, an evidence-based scope reset, and a staged regional rollout connected inventory-signal integrity to physical delivery speed and customer value.
+I led later-stage vendor-data and roadmap work inside an already regionalized fulfillment network. Streaming modernization, explicit decision rights, and an evidence-based scope reset cut signal latency and errors while protecting a major seller integration; the project does not claim authorship of Amazon's earlier eight-region rollout.
 
 ### Rakuten Group, Inc.
 
