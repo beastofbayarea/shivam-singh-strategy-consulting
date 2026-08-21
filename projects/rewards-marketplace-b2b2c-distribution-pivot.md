@@ -2,7 +2,7 @@
 
 The direct-to-consumer plan had >$50 million of launch momentum and allocated 70% of spend to social acquisition. Base lifetime value was only 0.8× CAC.
 
-During my June–December 2023 Rakuten experience, I led the strategy decision across Product, Finance, Partnerships, Operations, Analytics, enterprise clients, employees, and executives.
+During my June–December 2023 Rakuten experience, I put the stop-and-pivot strategy in front of Product, Finance, Partnerships, Operations, Analytics, enterprise clients, employees, and executives.
 
 The question was not “how fast can we launch?” It was “should we scale a relationship that loses value with every acquired user?”
 
@@ -49,6 +49,6 @@ Partner cohorts were compared with geographically matched direct control. Google
 | Contract cycle | ~9 months benchmark → accelerate via existing agreement → 11 weeks | First commercial step to executed addendum |
 | Concentration | no guardrail → ≤15%/partner → 15 partners in 6 months | New-user share and executed partner count |
 
-These are operating-team outcomes from the pivot. I owned the fact base, simulation, stop recommendation, distribution model, pilot design, measurement, concentration gates, and executive alignment. Product/Partnerships/Operations owned contracts, launch, service, and P&L.
+These are operating-team outcomes from the pivot. The fact base, simulation, stop recommendation, distribution model, pilot, measurement, concentration gates, and executive alignment were my strategy work. Product/Partnerships/Operations controlled contracts, launch, service, and P&L.
 
 The strategic decision was to stop growth in order to preserve value. Better ads could not fix negative unit economics; a reversible enterprise route changed acquisition, retention, contracting, privacy, and concentration together.

@@ -4,7 +4,7 @@ Amazon had already designed and activated eight US fulfillment regions in 2022â€
 
 My later program addressed a dependency inside it: vendor catalog/inventory updates took up to 38 hours and 8% contained errors. Nearby inventory is useless if the network cannot trust where it exists.
 
-I led the recovery across Operations, Sales, Product, Data, regional teams, Engineering, Support, and a seller contributing >$50 million in GMV.
+I ran the recovery with Operations, Sales, Product, Data, regional teams, Engineering, Support, and the technical organization of a seller contributing >$50 million in GMV.
 
 ## One update made the architecture undeniable
 
@@ -51,6 +51,6 @@ The seller-specific edge translated into the common contract; it did not become 
 
 Public [Amazon Science context](https://www.amazon.science/news-and-features/how-amazon-reworked-its-fulfillment-network-to-meet-customer-demand) explains why timely local availability matters. The [Kafka distributed-log paper](https://cwiki.apache.org/confluence/download/attachments/27822226/Kafka-netdb-06-2011.pdf) and [AWS Reliability Pillar](https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/welcome.html) ground replay and recovery.
 
-I owned path diagnosis, architecture decision, defect concentration, roadmap reallocation, strategic-seller trade-off, common-contract governance, and economics. Engineering implemented; Product owned platform; sellers corrected sources; Operations controlled degraded use; Sales owned relationship.
+Path diagnosis, architecture choice, defect concentration, roadmap reallocation, the strategic-seller trade-off, common-contract governance, and economics were my decision domain. Engineering implemented; Product controlled the platform; sellers corrected sources; Operations governed degraded use; Sales managed the relationship.
 
 The strategy-consulting contribution was not borrowed credit for regionalization. It was an operating model that made vendor truth timely, accurate, replayable, and governable enough for the regional network to act on it.

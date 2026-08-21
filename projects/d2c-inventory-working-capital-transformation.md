@@ -2,7 +2,7 @@
 
 Revenue was growing ~30%, but demand signals reached Operations two weeks late. Planners added 15–20% to purchase orders because stockouts hurt their targets more than excess stock. Inventory arrived after demand moved on.
 
-At McKinsey, I led the transformation across brand leaders, Marketing, Sales, Planning, Supply Chain, Finance, warehouses, and the ERP vendor. The executive trade-off was customer availability versus cash, resolved at SKU and purchase-order level—not as competing functional targets.
+At McKinsey, I made the transformation executable across brand leaders, Marketing, Sales, Planning, Supply Chain, Finance, warehouses, and the ERP vendor. Customer availability versus cash became a SKU- and PO-level executive decision, not a contest between functions.
 
 ## One purchase order exposed the bullwhip
 
@@ -42,7 +42,7 @@ The ERP connector estimate missed the decision window. I introduced scheduled Py
 
 The bridge had a reconciliation rule, failure response, owner, and retirement date. It was explicit technical debt used to protect one buying cycle while proving the durable API case.
 
-## Transformation account
+## Cash and service outcomes
 
 | Outcome | Baseline → target → recorded result | Measurement |
 |---|---|---|
@@ -56,6 +56,6 @@ The bridge had a reconciliation rule, failure response, owner, and retirement da
 
 I call 90→70 inventory days, not cash-conversion cycle, which would also need receivables/payables.
 
-I owned root-cause tracing, index and SKU roles, override governance, pilot sequencing, interim integration, operating decisions, and Finance bridge. Marketing supplied demand; planners owned orders; Sales protected service; Finance owned liquidity; Supply Chain/warehouse owned execution.
+Root-cause tracing, the index and SKU roles, override governance, pilot sequence, interim integration, operating decisions, and Finance bridge were my transformation responsibilities. Marketing supplied demand; planners placed orders; Sales protected service; Finance controlled liquidity; Supply Chain/Warehouses executed.
 
 The transformation removed fear stock by changing information, incentives, authority, and technology together. Cash was released because teams shared one SKU-level decision—not because planners were told to buy less.

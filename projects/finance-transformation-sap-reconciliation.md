@@ -2,7 +2,7 @@
 
 Six departments and five offices were reconciling the same financial activity through different definitions, spreadsheet rules, and email queues. Baseline reconciliation error was 20%; exceptions had no common owner, age, or materiality.
 
-During my D. E. Shaw experience, I led the enterprise control transformation across preparers, controllers, Finance/Operations, IT, Legal/Compliance, local offices, 200+ users, and SAP/Tableau partners.
+During my D. E. Shaw experience, I orchestrated the enterprise control transformation across preparers, controllers, Finance/Operations, IT, Legal/Compliance, five offices, 200+ users, and SAP/Tableau partners.
 
 This was not an SAP implementation. The deliverable was one financial definition, one exception object, one evidence trail, and a signed retirement decision for every legacy route.
 
@@ -54,6 +54,6 @@ I also negotiated a 15% SAP license discount through multi-year terms and case-s
 
 A “300% first-year return” cannot be reconstructed because full cost/formula are missing, so I exclude it. Post-implementation reviews passed; that proves observed control operation, not future risk absence.
 
-I owned the definition/exception operating model, pilot, wave gates, adoption, vendor economics, measurement, and legacy retirement governance. Finance defined meaning; IT implemented; controls approved; local teams adopted; vendors supplied platforms.
+The definition-and-exception operating model, pilot, wave gates, adoption, vendor economics, measurement, and legacy-retirement governance were the parts I directed. Finance defined meaning; IT implemented; Controls approved; local teams adopted; vendors supplied platforms.
 
 The durable asset was the authority to turn off the old process. SAP and Tableau scaled the workflow, but one definition, visible exception, accountable reviewer, and accepted evidence made the financial record defensible.
