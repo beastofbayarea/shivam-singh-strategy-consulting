@@ -1,5 +1,15 @@
 # Shivam Singh — Strategy & Transformation Consulting
 
+## Tell me about yourself
+
+**Q: Tell me about yourself / walk me through your background.**
+
+**A:** I am a strategy and transformation leader who turns ambiguous growth or performance questions into operating decisions organizations can sustain. I began at McKinsey, where I learned to structure market-entry, pricing, working-capital, and operating-model problems around hypotheses, evidence, and the executive decision they needed to change. One early transformation connected marketing demand signals to inventory purchasing, released working capital, and reduced stockouts rather than treating forecasting as a stand-alone analytics exercise.
+
+At D. E. Shaw, I led a global finance transformation across six departments and five offices, moving more than 200 users from departmental records to one governed reconciliation and exception model. During my MBA role at Rakuten, I advised stopping a planned direct-to-consumer rewards launch when scenario analysis showed that growth would worsen the economics, then developed a B2B2C distribution model with stronger retention and payback. At AWS, my work has included regional fulfillment operating-model transformation, where common streaming infrastructure, local decision rights, and a scope reset protected seller continuity while improving signal speed and data quality.
+
+Across those experiences, I have moved from diagnosing the strategic question to owning more of the implementation system—process, data, governance, capability, adoption, and value tracking. I am strongest when leaders need an evidence-based answer that changes what the organization will stop, start, fund, and measure. My standard is that a strategy is not complete until the operating team can make the new decision without the original project team in the room.
+
 I work on the point where strategy becomes an operating decision: what the business will stop, where authority will move, which capability must exist, and how leaders will know value is real before the final financial result arrives.
 
 The four transformations here are not variations of one playbook. Each required a different intervention—working-capital governance, finance-control redesign, regional data architecture, or a change in distribution model—but all converted analysis into behavior the organization could sustain.
