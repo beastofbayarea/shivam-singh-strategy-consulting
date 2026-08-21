@@ -30,6 +30,12 @@ Use the PDF for review and sharing. Use the DOCX for editable, ATS-friendly appl
 
 Stories are grouped by their primary resume experience in reverse chronological order. Each project includes resume-ready impact, interview framing, decisions, metrics, and a link to the source page.
 
+### Amazon Web Services (AWS)
+
+**Principal, Strategy and Transformation** | July 2024 - Present
+
+- [Regional fulfillment: operating-model transformation](./projects/regional-fulfillment-operating-model-transformation.md) - data modernization, scope prioritization, regional rollout, governance, and measurable value capture
+
 ### Rakuten Group, Inc.
 
 **Corporate Strategy and Transformation - MBA Intern** | June 2023 - December 2023
