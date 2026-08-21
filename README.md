@@ -28,13 +28,18 @@ Use the PDF for review and sharing. Use the DOCX for editable, ATS-friendly appl
 
 ## Project interview stories
 
-Each story adapts a portfolio project to this role narrative, with resume-ready impact, interview framing, decisions, metrics, and a link to the source page.
+Each story adapts a portfolio project to this role narrative, with resume-ready impact, interview framing, decisions, metrics, and a link to the source page. The primary resume experience identifies the work-history anchor whose stated scope and evidence best support the story.
 
 - [Rewards marketplace: B2B2C distribution pivot](./projects/rewards-marketplace-b2b2c-distribution-pivot.md) - fact base, economics, pivot recommendation, and pilot design
+  - **Primary resume experience:** Rakuten Group, Inc. - Corporate Strategy and Transformation - MBA Intern (June 2023 - December 2023)
 - [APAC expansion: analytics and localized GTM](./projects/apac-expansion-analytics-localized-gtm.md) - operating model, localization, and market-entry execution
+  - **Primary resume experience:** McKinsey & Company - Engagement Associate, Strategy and Transformation (July 2014 - June 2016)
 - [Retail pricing: explainable elasticity](./projects/retail-pricing-explainable-elasticity.md) - pricing transformation, guardrails, and value capture
+  - **Primary resume experience:** McKinsey & Company - Engagement Associate, Strategy and Transformation (July 2014 - June 2016)
 - [D2C inventory: working-capital transformation](./projects/d2c-inventory-working-capital-transformation.md) - inventory operating model and measurable cash release
+  - **Primary resume experience:** McKinsey & Company - Engagement Associate, Strategy and Transformation (July 2014 - June 2016)
 - [Finance transformation: SAP reconciliation](./projects/finance-transformation-sap-reconciliation.md) - process standardization, adoption, and transformation governance
+  - **Primary resume experience:** The D. E. Shaw Group - Vice President, Transformation (July 2016 - December 2019)
 
 ## Profile
 
