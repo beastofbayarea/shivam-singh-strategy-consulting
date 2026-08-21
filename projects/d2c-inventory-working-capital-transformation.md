@@ -2,6 +2,8 @@
 
 I led a demand-planning transformation for a portfolio of direct-to-consumer brands. I had identified that customers needed the best products to stay available while the company needed to stop tying cash up in stock that arrived after demand had moved on. I worked with brand leaders, Marketing, Sales, demand planners, Supply Chain, Finance, warehouse teams, and the ERP vendor.
 
+I owned the portfolio trade-off between customer availability and cash, down to the SKU and purchase-order decision. The transformation spanned demand sensing, campaign planning, supplier lead times, warehouse capacity, planner authority, ERP integration, and Finance's working-capital commitments; improving one function while pushing inventory or stockouts into another did not count as success.
+
 This was a McKinsey project from my July 2014 to June 2016 tenure. Revenue was growing about 30%, but marketing signals reached Operations two weeks late and planners added 15%–20% to orders because their incentives punished stockouts more than excess inventory. The business was not short of forecasts; it was short of a trusted decision shared by cash, service, and growth owners.
 
 ## The problem was an information and incentive bullwhip

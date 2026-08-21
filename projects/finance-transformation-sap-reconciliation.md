@@ -6,6 +6,8 @@ I led a global finance transformation across six departments and five offices. I
 
 During my D. E. Shaw experience from July 2016 to December 2019, I audited historical reports, reconciliation breaks, source formats, spreadsheet rules, email queues, ownership, control evidence, and team effort. The baseline showed a 20% reconciliation-error rate and no common way to see the age, amount, or owner of an exception.
 
+I owned the operating-model reset across six departments, five offices, and more than 200 users: one financial definition, one exception object, one evidence trail, and one signed retirement decision for every legacy route. That made the work an enterprise control transformation with systems, process, adoption, vendor economics, and close authority in scope—not an SAP installation.
+
 Finance owners defined the economic meaning of each legacy field. IT mapped it into a canonical model. Control owners reconciled totals and approved the mapping in parallel runs. That decision order mattered: an integration can move a field perfectly while changing its accounting meaning.
 
 COSO supplied the broad control logic—risk, control activity, information, communication, and monitoring. BCBS 239, although written for bank risk data rather than this exact process, reinforced the need for accurate, complete, timely, adaptable data with accountable ownership.
