@@ -1,60 +1,28 @@
-# D. E. Shaw Finance Transformation — SAP Reconciliation Automation
+# Finance Transformation - SAP Reconciliation
 
-> **Portfolio lens:** Target operating model, global finance transformation, SAP automation, change management, and value realization.
+> **Document type:** Externally grounded interview case reconstruction, not a claim of an independently verified completed engagement.
+>
+> **Timeline alignment:** The [public Strategy and Transformation resume](https://github.com/beastofbayarea/shivam-singh-strategy-consulting/blob/main/shivam-singh-strategy-consulting.pdf) is used only to place this case within the D. E. Shaw role dated July 2016-December 2019.
 
-## Executive snapshot
+## Evidence-grounded premise
 
-Led a global record-to-report transformation across six departments, five offices, and more than 200 users. Standardized finance data, automated matching and exception ownership, phased migration, role-based adoption, and real-time controls replaced six departmental versions of truth.
+COSO's 2013 internal-control framework emphasizes reliable information, control activities, ownership, and monitoring. BCBS 239 requires accurate, complete, timely, and adaptable aggregation with strong governance. These sources support standardizing financial meaning, lineage, exception ownership, and evidence before automating reconciliation.
 
-## Resume-ready impact
+## Case approach
 
-- Led a multi-office SAP S/4HANA and Tableau transformation that reduced reconciliation errors from 20% to 5% in the first quarter and later near zero.
-- Reduced the reported 120-day completion cycle 15% to 102 days and cut exception-resolution time 25%.
-- Reached 95% adoption across 200+ users, released 25% of team capacity, and delivered $1.5M in annual savings with reported first-year ROI of 300%.
+- Establish canonical accounts, entities, fields, timing, materiality, and owners.
+- Map legacy data to approved definitions and preserve source-to-report lineage.
+- Automate deterministic matches while routing material or ambiguous exceptions to accountable reviewers.
+- Use phased parallel runs, reconciled evidence, and control approval before cutover.
 
-## Interview story
+## Evidence-based success measures
 
-### Situation
+Use reconciliation breaks, exception age, manual adjustments, lineage completeness, close timeliness, control findings, and adoption. These are proposed measures, not historical results.
 
-Manual spreadsheets, incompatible definitions, email-routed exceptions, and late discovery of discrepancies undermined reporting speed and executive trust.
+## External source map
 
-### Task
-
-Create one governed global close process while protecting live reporting deadlines, regional requirements, accounting intent, and user adoption.
-
-### Actions
-
-- Audited historical reports, exception logs, process documents, ownership, and resource allocation.
-- Separated the program into standardization, automation, change, and governance workstreams.
-- Mapped legacy fields to canonical definitions with Finance ownership, IT implementation, parallel reconciliation, and control approval.
-- Rolled out from non-critical departments through lower-risk offices to high-impact finance teams with role-based training and champions.
-
-### Results
-
-- Errors fell from 20% to 5% initially and approached zero in sustained operation.
-- Completion time declined 15% to 102 days.
-- Adoption reached 95% within three months.
-- Annual savings reached $1.5M, and 25% of team capacity was released.
-
-## Decisions and trade-offs
-
-- Standardize financial meaning before automating it.
-- Make exceptions visible, owned, aged, and evidence-backed rather than forcing false auto-matches.
-- Use phased parallel runs to protect the close before legacy retirement.
-
-## Leadership signal
-
-Secured CFO and COO sponsorship and coordinated Finance, IT, Operations, Legal, Compliance, local offices, and platform vendors through a shared transformation scorecard.
-
-## Skills and keywords
-
-finance transformation · SAP S/4HANA · target operating model · reconciliation · change management · PMO · data standardization · Tableau · value realization · operational excellence
-
-## Factual boundary
-
-The source notes ambiguity in the 120-day baseline and recommends separating project-duration metrics from recurring close-cycle metrics. This file preserves the source's reported 15% improvement without redefining the baseline.
-
-## Source
-
-[Original Notion project page](https://app.notion.com/p/15bf9e255f2180b394bdf8acbbc06b49)
-
+| Source | Contribution |
+|---|---|
+| [COSO - Internal Control Integrated Framework (2013)](https://www.coso.org/guidance-on-ic/pages/default.aspx) | Primary financial-control, reliable-information, and monitoring framework. |
+| [Basel Committee - BCBS 239 (2013)](https://www.bis.org/publ/bcbs239.htm) | Primary data aggregation, quality, governance, and reporting principles. |
+| [Public resume](https://github.com/beastofbayarea/shivam-singh-strategy-consulting/blob/main/shivam-singh-strategy-consulting.pdf) | Work dates only. |
